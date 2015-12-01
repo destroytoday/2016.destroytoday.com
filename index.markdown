@@ -23,14 +23,14 @@ blocks:
   - http://placehold.it/480x320
   - http://placehold.it/480x320
 - header: Writing
-  body: |
+  body: |-
     I write about the process behind my work and other experiences as a freelancer.
 
     - [Building the Carousel website with Dropbox](/blog/building-carousel)
     - [Book covers, model airplanes, and my dad](/blog/dad)
     - [Building the Pencil page with FiftyThree](/blog/building-pencil)
 - header: Interviews
-  body: |
+  body: |-
     I’ve been fortunate enough to appear on several podcasts.
 
     - [Pencil vs Pixel](/interviews/pencil-vs-pixel)
