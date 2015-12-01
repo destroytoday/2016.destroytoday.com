@@ -1,6 +1,7 @@
 ---
 title: Home
 date: 2015-11-17 23:56:00 Z
+title?: false
 blocks:
 - figure:
     image: http://placehold.it/512x336
