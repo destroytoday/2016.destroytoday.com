@@ -2,8 +2,9 @@
 title: Home
 date: 2015-11-17 23:56:00 Z
 blocks:
-- figure: http://placehold.it/512x336
-  caption: This is a photo of me and my cat, Macy Gray.
+- figure:
+    image: http://placehold.it/512x336
+    caption: This is a photo of me and my cat, Macy Gray.
   full: true
 - header: About
   body: Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with a focus on
