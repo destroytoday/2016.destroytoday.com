@@ -1,0 +1,21 @@
+---
+title: Destroy Today 2016
+url: http://2016.destroytoday.com
+timezone: UTC
+collections:
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
