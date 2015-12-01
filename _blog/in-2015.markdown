@@ -1,6 +1,7 @@
 ---
 title: In 2015
 date: 2015-12-01 04:50:00 Z
+timestamp?: true
 blocks:
 - body: The end of this year really crept up on me. I spent most of it heads-down
     working, so I didn’t even think of writing a year-in-review post until the last
