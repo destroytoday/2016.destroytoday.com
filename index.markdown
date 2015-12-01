@@ -14,8 +14,10 @@ blocks:
   body: I’m currently working on [Cushion](http://cushionapp.com), an app to help
     freelancers manage projects and track invoices.
   images:
-  - http://placehold.it/480x320
-  - http://placehold.it/480x320
+  - image: http://placehold.it/480x320
+    url: "/work/cushion"
+  - image: http://placehold.it/480x320
+    url: "/work/cushion"
 - body: I’ve had the pleasure of working with many great collaborators, like [Casper](/work/casper),
     [Dropbox](/work/carousel), [Etsy](/work/etsy), [FiftyThree](/work/fiftythree-pencil),
     and [Artsy](/work/artsy).
