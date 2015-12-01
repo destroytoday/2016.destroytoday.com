@@ -38,10 +38,10 @@
 
         {% if block.figure %}
         <figure class='block__figure'>
-          <img class='block__image' src='{{ block.figure }}'>
-          {% if block.caption %}
+          <img class='block__image' src='{{ block.figure.image }}'>
+          {% if block.figure.caption %}
           <figcaption class='block__caption'>
-            {{ block.caption | markdownify }}
+            {{ block.figure.caption | markdownify }}
           </figcaption>
           {% endif %}
         </figure>
