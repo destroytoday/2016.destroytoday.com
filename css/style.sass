@@ -1,0 +1,212 @@
+---
+---
+@import 'reset'
+
+$mobile-side: 0.75rem
+$layout-max-width: 32rem
+$logo-size: 2.5rem
+
+$break-phone: 25rem
+$break-tablet: 32rem
+$break-mobile-sides: $layout-max-width + $mobile-side * 2
+
+$color-blue: #3498DB
+
+
+body
+  font-family: "ff-tisa-web-pro", Georgia, serif
+  color: #222
+
+  @media (max-width: $break-phone)
+    font-size: 0.875em
+
+
+a
+  color: inherit
+
+
+.clear
+  zoom: 1
+
+  &:before, &:after
+    content: ""
+    display: table
+
+  &:after
+    clear: both
+
+
+.container
+  margin: 0 auto
+  max-width: $layout-max-width
+
+
+.header
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+
+
+.logo-container
+  $max-width: $layout-max-width + $logo-size * 2
+  @media (min-width: $max-width)
+    max-width: $max-width
+
+
+.logo
+  display: block
+  width: 2.5em
+  height: 2.5em
+
+  background-color: $color-blue
+
+
+.layout
+  .block
+    margin-top: 2em
+
+    &:first-child
+      margin-top: 0
+
+    &:last-child
+      margin-bottom: 2em
+
+
+.block
+  @media (max-width: $break-mobile-sides)
+    padding: 0 $mobile-side
+
+  &--full
+    padding-left: 0
+    padding-right: 0
+
+  .block__title
+    margin: 2em 0
+
+  .block__body
+    margin-top: 0.5em
+
+  .block__header + .block__body
+    margin-top: 0.25em
+
+  .block__image + .block__caption
+    margin-top: 0.5em
+
+  .block__header + .block__figure
+    margin-top: 0.75em
+
+  .block__image-container,
+  .block__list,
+  .block__image-container + .block__body
+    margin-top: 1em
+
+
+.block__title
+  font-size: 1.5em
+  line-height: 1.5em
+  text-align: center
+
+  @media (min-width: $break-phone)
+    font-size: 1.75em
+
+  @media (min-width: $break-tablet)
+    font-size: 2em
+
+
+.block__header
+  font-size: 1.125em
+  line-height: 1.5em
+  font-weight: bold
+
+
+.block__body
+  p
+    margin-top: 1em
+    line-height: 1.5em
+
+    &:first-child
+      margin-top: 0
+
+  ul
+    margin-top: 1em
+
+    &:first-child
+      margin-top: 0
+
+  li
+    line-height: 1.5em
+
+    white-space: nowrap
+    text-overflow: ellipsis
+    overflow: hidden
+
+    &:before
+      content: '- '
+
+    @media (min-width: $break-tablet)
+      padding-left: 1em
+
+
+.block__image
+  max-width: 100%
+  max-height: 100%
+
+  vertical-align: bottom
+
+  &--half
+    @media (min-width: $break-phone)
+      display: inline-block
+      width: 48.5%
+
+.block__image-container
+  .block__image--half
+    margin-top: 3%
+
+    @media (min-width: $break-phone)
+      &:first-child,
+      &:nth-child(2)
+        margin-top: 0
+
+      &:nth-child(odd)
+        margin-left: 0
+        margin-right: 1.5%
+
+      &:nth-child(even)
+        margin-left: 1.5%
+        margin-right: 0
+
+
+.block__caption
+  p
+    font-size: 0.75rem
+    line-height: 1.5em
+
+  @media (max-width: $break-mobile-sides)
+    .block--full &
+      padding: 0 $mobile-side
+
+
+.block__time
+  font-style: italic
+
+  &:before
+    content: '– '
+
+  a
+    text-decoration: none
+
+
+.block__footer
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+
+
+.footer
+  margin-top: 4em
+  margin-bottom: 2em
+
+  p
+    font-size: 0.75rem
+    text-align: center

@@ -11,8 +11,8 @@ blocks:
   body: Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with a focus on
     simple, clean, and subtle design.
 - header: Work
-  body: I’m currently working on [Cushion](http://cushionapp.com), an app to help
-    freelancers manage projects and track invoices.
+  body: I’m currently building my own app, [Cushion](http://cushionapp.com), to help
+    freelancers manage their unpredictable schedule and income.
   images:
   - image: http://placehold.it/480x320
     url: "/work/cushion"
@@ -33,6 +33,7 @@ blocks:
     - [Building the Carousel website with Dropbox](/blog/building-carousel)
     - [Book covers, model airplanes, and my dad](/blog/dad)
     - [Building the Pencil page with FiftyThree](/blog/building-pencil)
+    - [more...](/blog)
 - header: Interviews
   body: |-
     I’ve been fortunate enough to appear on several podcasts.
@@ -40,6 +41,8 @@ blocks:
     - [Pencil vs Pixel](/interviews/pencil-vs-pixel)
     - [Creative Briefs](/interviews/creative-briefs)
     - [Web Friends](/interviews/web-friends)
+    - [The Start](/interviews/the-start)
+    - [How to Hold a Pencil](/interviews/how-to-hold-a-pencil)
 - header: Contact
   body: You can reach me on Twitter at [@destroytoday](https://twitter.com/destroytoday)
     or by emailing me at [jonnie@destroytoday.com](mailto:jonnie@destroytoday.com).
