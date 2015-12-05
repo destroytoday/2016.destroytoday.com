@@ -6,6 +6,9 @@ collections:
   blog:
     title: Blog
     output: true
+  interviews:
+    title: Interviews
+    output: true
   uploads:
     title: Uploads
     output: true
