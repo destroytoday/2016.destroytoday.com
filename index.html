@@ -7,8 +7,7 @@
     <title>Destroy Today</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-    <link rel="stylesheet" href="//codepen.io/assets/reset/reset.css">
-    <link rel="stylesheet" href="//codepen.io/destroytoday/pen/4ca4039f53e5f07c2648407ee1476c60.css">
+    <link rel='stylesheet' href='/css/style.css'>
 
     <script>
       (function(d) {
@@ -26,19 +25,24 @@
     <header class='header'>
       <h1 class='logo-container container'>
         <a class='logo' href='/'>
-          <svg width='40' height='40' xmlns="http://www.w3.org/2000/svg"><path d="M10.068 14.328H14.1c.82 0 1.58.107 2.28.32.7.213 1.3.54 1.808.976.507.437.9.997 1.184 1.68.283.683.424 1.488.424 2.416 0 .885-.144 1.656-.432 2.312-.288.656-.685 1.205-1.192 1.648-.507.443-1.11.773-1.808.992-.7.22-1.46.328-2.28.328h-4.016V14.328zm3.888 8.528c1.067 0 1.888-.28 2.464-.84.576-.56.864-1.33.864-2.312 0-.49-.067-.936-.2-1.336s-.336-.74-.608-1.024c-.272-.283-.616-.5-1.032-.656-.416-.155-.912-.232-1.488-.232h-1.472v6.4h1.472zm10.836-6.4h-3.456v-2.128h9.328v2.128h-3.44V25h-2.432v-8.544z" fill="#FFF"/></svg>
+          <svg viewbox='0 0 40 40' xmlns="http://www.w3.org/2000/svg"><path d="M10.068 14.328H14.1c.82 0 1.58.107 2.28.32.7.213 1.3.54 1.808.976.507.437.9.997 1.184 1.68.283.683.424 1.488.424 2.416 0 .885-.144 1.656-.432 2.312-.288.656-.685 1.205-1.192 1.648-.507.443-1.11.773-1.808.992-.7.22-1.46.328-2.28.328h-4.016V14.328zm3.888 8.528c1.067 0 1.888-.28 2.464-.84.576-.56.864-1.33.864-2.312 0-.49-.067-.936-.2-1.336s-.336-.74-.608-1.024c-.272-.283-.616-.5-1.032-.656-.416-.155-.912-.232-1.488-.232h-1.472v6.4h1.472zm10.836-6.4h-3.456v-2.128h9.328v2.128h-3.44V25h-2.432v-8.544z" fill="#FFF"/></svg>
         </a>
       </h1>
     </header>
 
     <main class='layout container'>
       
+
+      
       <div class='block--full block'>
         
 
         
         <figure class='block__figure'>
-          <img class='block__image' src='http://placehold.it/512x336'>
+          <div class='block__image'>
+            <img src='/uploads/me-and-macy.jpg'>
+          </div>
+
           
           <figcaption class='block__caption'>
             <p>This is a photo of me and my cat, Macy Gray.</p>
@@ -51,74 +55,148 @@
         
 
         
-      </div>
-      
-      <div class='block'>
-        <h2 class='block__header'>About</h2>
-
-        
-
-        
-        <div class='block__body'>
-          <p>Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with a focus on simple, clean, and subtle design.</p>
-
-        </div>
-        
 
         
       </div>
       
       <div class='block'>
-        <h2 class='block__header'>Work</h2>
-
+        
+          <h2 class='block__header'>About
+          </h2>
         
 
-        
-        <div class='block__body'>
-          <p>I’m currently working on <a href="http://cushionapp.com">Cushion</a>, an app to help freelancers manage projects and track invoices.</p>
-
-        </div>
-        
-
-        
-        <div class='block__image-container'>
-          <img class='block__image--half block__image' src='http://placehold.it/480x320'><img class='block__image--half block__image' src='http://placehold.it/480x320'>
-        </div>
-        
-      </div>
-      
-      <div class='block'>
         
 
         
 
         
         <div class='block__body'>
-          <p>I’ve had the pleasure of working with many great collaborators, like <a href="/work/casper">Casper</a>, <a href="/work/carousel">Dropbox</a>, <a href="/work/etsy">Etsy</a>, <a href="/work/fiftythree-pencil">FiftyThree</a>, and <a href="/work/artsy">Artsy</a>.</p>
+          <p>Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with a healthy balance of design and code. I enjoy working with dependable collaborators who share the same passion for smart and subtle design.</p>
 
         </div>
         
 
-        
-        <div class='block__image-container'>
-          <img class='block__image--half block__image' src='http://placehold.it/480x320'><img class='block__image--half block__image' src='http://placehold.it/480x320'><img class='block__image--half block__image' src='http://placehold.it/480x320'><img class='block__image--half block__image' src='http://placehold.it/480x320'>
-        </div>
         
       </div>
       
       <div class='block'>
-        <h2 class='block__header'>Writing</h2>
+        
+          <h2 class='block__header'>Work
+          </h2>
+        
+
+        
 
         
 
         
         <div class='block__body'>
-          <p>I write about the process behind my work and other experiences as a freelancer.</p>
+          <p>I’m currently building my own app, <a href="http://cushionapp.com">Cushion</a>, to help freelancers manage their unpredictable schedule and income.</p>
+
+        </div>
+        
+
+        
+        <div class='block__images-container'>
+          <div class='
+            block__image--half 
+            block__image--shadow 
+          block__image'>
+            <a href='/work/cushion'>
+
+            <img src='/uploads/work/cushion/cushion-homepage.png'>
+
+            </a>
+          </div><div class='
+            block__image--half 
+            block__image--shadow 
+          block__image'>
+            <a href='/work/cushion'>
+
+            <img src='/uploads/work/cushion/cushion-budget.png'>
+
+            </a>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class='block'>
+        
+
+        
+
+        
+
+        
+        <div class='block__body'>
+          <p>I’ve had the pleasure of working with many wonderful clients, like <a href="/work/casper">Casper</a>, <a href="/work/carousel">Dropbox</a>, <a href="/work/etsy">Etsy</a>, <a href="/work/fiftythree-pencil">FiftyThree</a>, and <a href="/work/artsy">Artsy</a>.</p>
+
+        </div>
+        
+
+        
+        <div class='block__images-container'>
+          <div class='
+            block__image--half 
+            block__image--shadow 
+          block__image'>
+            <a href='/work/casper'>
+
+            <img src='/uploads/work/casper/casper.png'>
+
+            </a>
+          </div><div class='
+            block__image--half 
+            block__image--shadow 
+          block__image'>
+            <a href='/fiftythree/paper'>
+
+            <img src='/uploads/work/fiftythree/fiftythree-paper.png'>
+
+            </a>
+          </div><div class='
+            block__image--half 
+            block__image--shadow 
+          block__image'>
+            <a href='/work/dropbox/carousel'>
+
+            <img src='/uploads/work/dropbox/carousel.png'>
+
+            </a>
+          </div><div class='
+            block__image--half 
+            block__image--shadow 
+          block__image'>
+            <a href='/'work/fiftythree/pencil''>
+
+            <img src='/uploads/work/fiftythree/fiftythree-pencil.png'>
+
+            </a>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class='block'>
+        
+          <h2 class='block__header'>Writing
+          </h2>
+        
+
+        
+
+        
+
+        
+        <div class='block__body'>
+          <p>I write about the process behind my work and other experiences as a freelancer and independent developer.</p>
 
 <ul>
   <li><a href="/blog/building-carousel">Building the Carousel website with Dropbox</a></li>
   <li><a href="/blog/dad">Book covers, model airplanes, and my dad</a></li>
   <li><a href="/blog/building-pencil">Building the Pencil page with FiftyThree</a></li>
+  <li><a href="/blog">more…</a></li>
 </ul>
 
         </div>
@@ -128,7 +206,12 @@
       </div>
       
       <div class='block'>
-        <h2 class='block__header'>Interviews</h2>
+        
+          <h2 class='block__header'>Interviews
+          </h2>
+        
+
+        
 
         
 
@@ -140,6 +223,8 @@
   <li><a href="/interviews/pencil-vs-pixel">Pencil vs Pixel</a></li>
   <li><a href="/interviews/creative-briefs">Creative Briefs</a></li>
   <li><a href="/interviews/web-friends">Web Friends</a></li>
+  <li><a href="/interviews/the-start">The Start</a></li>
+  <li><a href="/interviews/how-to-hold-a-pencil">How to Hold a Pencil</a></li>
 </ul>
 
         </div>
@@ -149,7 +234,12 @@
       </div>
       
       <div class='block'>
-        <h2 class='block__header'>Contact</h2>
+        
+          <h2 class='block__header'>Contact
+          </h2>
+        
+
+        
 
         
 
@@ -162,6 +252,8 @@
 
         
       </div>
+      
+
       
     </main>
 
