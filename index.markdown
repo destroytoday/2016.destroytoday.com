@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2015-11-17 23:56:00 Z
+date: 2015-11-17 18:56:00 -05:00
 title?: false
 blocks:
 - figure:
@@ -16,10 +16,10 @@ blocks:
     freelancers manage their unpredictable schedule and income.
   images:
   - image: "/uploads/work/cushion/cushion-homepage.png"
-    url: "http://cushionapp.com"
+    url: http://cushionapp.com
     shadow?: true
   - image: "/uploads/work/cushion/cushion-budget.png"
-    url: "http://cushionapp.com"
+    url: http://cushionapp.com
     shadow?: true
 - body: I’ve had the pleasure of working with many wonderful clients, like [Casper](/work/casper),
     [Dropbox](/work/carousel), [Etsy](/work/etsy), [FiftyThree](/work/fiftythree-pencil),
