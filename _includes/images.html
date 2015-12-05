@@ -1,0 +1,15 @@
+<div class='block__images-container'>
+  {% for image in block.images %}<div class='
+    {% if block.images.size > 1 %}block__image--half {% endif %}
+    {% if image.shadow? %}block__image--shadow {% endif %}
+  block__image'>
+    {% if image.url %}
+      {% assign path = image.url | slice:0,1 %}
+      <a href='{{ image.url }}'{% unless path == '/' %} target='_blank'{% endunless %}>
+    {% endif %}
+
+    <img src='{{ image.image | default: image }}'>
+
+    {% if image.url %}</a>{% endif %}
+  </div>{% endfor %}
+</div>

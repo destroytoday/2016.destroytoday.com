@@ -1,0 +1,11 @@
+<figure class='block__figure'>
+  <div class='block__image'>
+    <img src='{{ block.figure.image }}'>
+  </div>
+
+  {% if block.figure.caption %}
+  <figcaption class='block__caption'>
+    {{ block.figure.caption | markdownify }}
+  </figcaption>
+  {% endif %}
+</figure>
