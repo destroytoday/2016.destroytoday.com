@@ -16,10 +16,10 @@ blocks:
     freelancers manage their unpredictable schedule and income.
   images:
   - image: "/uploads/work/cushion/cushion-homepage.png"
-    url: "/work/cushion"
+    url: "http://cushionapp.com"
     shadow?: true
   - image: "/uploads/work/cushion/cushion-budget.png"
-    url: "/work/cushion"
+    url: "http://cushionapp.com"
     shadow?: true
 - body: I’ve had the pleasure of working with many wonderful clients, like [Casper](/work/casper),
     [Dropbox](/work/carousel), [Etsy](/work/etsy), [FiftyThree](/work/fiftythree-pencil),
@@ -35,7 +35,7 @@ blocks:
     url: "/work/dropbox/carousel"
     shadow?: true
   - image: "/uploads/work/fiftythree/fiftythree-pencil.png"
-    url: "/'work/fiftythree/pencil'"
+    url: "/work/fiftythree/pencil"
     shadow?: true
 - header: Writing
   body: |-
