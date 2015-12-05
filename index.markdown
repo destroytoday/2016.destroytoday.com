@@ -4,7 +4,7 @@ date: 2015-11-17 23:56:00 Z
 title?: false
 blocks:
 - figure:
-    image: /uploads/me-and-macy.jpg
+    image: "/uploads/me-and-macy.jpg"
     caption: This is a photo of me and my cat, Macy Gray.
   full: true
 - header: About
@@ -14,23 +14,23 @@ blocks:
   body: I’m currently building my own app, [Cushion](http://cushionapp.com), to help
     freelancers manage their unpredictable schedule and income.
   images:
-  - image: /uploads/work/cushion/cushion-homepage.png
+  - image: "/uploads/work/cushion/cushion-homepage.png"
     url: "/work/cushion"
     shadow?: true
-  - image: /uploads/work/cushion/cushion-budget.png
+  - image: "/uploads/work/cushion/cushion-budget.png"
     url: "/work/cushion"
     shadow?: true
 - body: I’ve had the pleasure of working with many great collaborators, like [Casper](/work/casper),
     [Dropbox](/work/carousel), [Etsy](/work/etsy), [FiftyThree](/work/fiftythree-pencil),
     and [Artsy](/work/artsy).
   images:
-  - image: /uploads/work/casper/casper.png
+  - image: "/uploads/work/casper/casper.png"
     shadow?: true
-  - image: /uploads/work/fiftythree/fiftythree-paper.png
+  - image: "/uploads/work/fiftythree/fiftythree-paper.png"
     shadow?: true
-  - image: /uploads/work/dropbox/carousel.png
+  - image: "/uploads/work/dropbox/carousel.png"
     shadow?: true
-  - image: /uploads/work/fiftythree/fiftythree-pencil.png
+  - image: "/uploads/work/fiftythree/fiftythree-pencil.png"
     shadow?: true
 - header: Writing
   body: |-
