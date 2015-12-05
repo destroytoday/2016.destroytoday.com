@@ -22,6 +22,11 @@ defaults:
     type: blog
   values:
     timestamp?: true
+- scope:
+    path: ''
+    type: interviews
+  values:
+    timestamp?: true
 permalink: pretty
 sass:
   sass_dir: css/_includes
