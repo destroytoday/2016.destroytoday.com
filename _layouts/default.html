@@ -45,7 +45,10 @@
 
         {% if block.figure %}
         <figure class='block__figure'>
-          <img class='block__image' src='{{ block.figure.image }}'>
+          <div class='block__image'>
+            <img src='{{ block.figure.image }}'>
+          </div>
+
           {% if block.figure.caption %}
           <figcaption class='block__caption'>
             {{ block.figure.caption | markdownify }}
@@ -61,8 +64,17 @@
         {% endif %}
 
         {% if block.images %}
-        <div class='block__image-container'>
-          {% for image in block.images %}{% if image.url %}<a href='{{ image.url }}'>{% endif %}<img class='{% if block.images.size > 1 %}block__image--half {% endif %}block__image' src='{{ image.image | default: image }}'>{% if image.url %}</a>{% endif %}{% endfor %}
+        <div class='block__images-container'>
+          {% for image in block.images %}<div class='
+            {% if block.images.size > 1 %}block__image--half {% endif %}
+            {% if image.shadow? %}block__image--shadow {% endif %}
+          block__image'>
+            {% if image.url %}<a href='{{ image.url }}'>{% endif %}
+
+            <img src='{{ image.image | default: image }}'>
+
+            {% if image.url %}</a>{% endif %}
+          </div>{% endfor %}
         </div>
         {% endif %}
       </div>

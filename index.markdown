@@ -4,7 +4,7 @@ date: 2015-11-17 23:56:00 Z
 title?: false
 blocks:
 - figure:
-    image: http://placehold.it/512x336
+    image: /uploads/me-and-macy.jpg
     caption: This is a photo of me and my cat, Macy Gray.
   full: true
 - header: About
@@ -14,18 +14,24 @@ blocks:
   body: I’m currently building my own app, [Cushion](http://cushionapp.com), to help
     freelancers manage their unpredictable schedule and income.
   images:
-  - image: http://placehold.it/480x320
+  - image: /uploads/work/cushion/cushion-homepage.png
     url: "/work/cushion"
-  - image: http://placehold.it/480x320
+    shadow?: true
+  - image: /uploads/work/cushion/cushion-budget.png
     url: "/work/cushion"
+    shadow?: true
 - body: I’ve had the pleasure of working with many great collaborators, like [Casper](/work/casper),
     [Dropbox](/work/carousel), [Etsy](/work/etsy), [FiftyThree](/work/fiftythree-pencil),
     and [Artsy](/work/artsy).
   images:
-  - http://placehold.it/480x320
-  - http://placehold.it/480x320
-  - http://placehold.it/480x320
-  - http://placehold.it/480x320
+  - image: /uploads/work/casper/casper.png
+    shadow?: true
+  - image: /uploads/work/fiftythree/fiftythree-paper.png
+    shadow?: true
+  - image: /uploads/work/dropbox/carousel.png
+    shadow?: true
+  - image: /uploads/work/fiftythree/fiftythree-pencil.png
+    shadow?: true
 - header: Writing
   body: |-
     I write about the process behind my work and other experiences as a freelancer.

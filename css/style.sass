@@ -26,17 +26,6 @@ a
   color: inherit
 
 
-.clear
-  zoom: 1
-
-  &:before, &:after
-    content: ""
-    display: table
-
-  &:after
-    clear: both
-
-
 .container
   margin: 0 auto
   max-width: $layout-max-width
@@ -97,9 +86,9 @@ a
   .block__header + .block__figure
     margin-top: 0.75em
 
-  .block__image-container,
+  .block__images-container,
   .block__list,
-  .block__image-container + .block__body
+  .block__images-container + .block__body
     margin-top: 1em
 
 
@@ -150,21 +139,28 @@ a
 
 
 .block__image
-  max-width: 100%
-  max-height: 100%
+  vertical-align: top
 
-  vertical-align: bottom
+  img
+    width: 100%
+    max-height: 100%
+
+  &--shadow img
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15)
 
   &--half
     @media (min-width: $break-phone)
       display: inline-block
       width: 48.5%
 
-.block__image-container
+
+.block__images-container
   .block__image--half
-    margin-top: 3%
+    margin-top: 1em
 
     @media (min-width: $break-phone)
+      margin-top: 3%
+
       &:first-child,
       &:nth-child(2)
         margin-top: 0
