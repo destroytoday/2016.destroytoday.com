@@ -8,7 +8,9 @@ blocks:
     caption: This is a photo of me and my cat, Macy Gray.
   full: true
 - header: About
-  body: Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with a healthy balance of design and code. I enjoy working with dependable collaborators who share the same passion for smart and subtle design.
+  body: Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with a healthy
+    balance of design and code. I enjoy working with dependable collaborators who
+    share the same passion for smart and subtle design.
 - header: Work
   body: I’m currently building my own app, [Cushion](http://cushionapp.com), to help
     freelancers manage their unpredictable schedule and income.
@@ -24,16 +26,16 @@ blocks:
     and [Artsy](/work/artsy).
   images:
   - image: "/uploads/work/casper/casper.png"
-    url: /work/casper
+    url: "/work/casper"
     shadow?: true
   - image: "/uploads/work/fiftythree/fiftythree-paper.png"
-    url: /fiftythree/paper
+    url: "/fiftythree/paper"
     shadow?: true
   - image: "/uploads/work/dropbox/carousel.png"
-    url: /work/dropbox/carousel
+    url: "/work/dropbox/carousel"
     shadow?: true
   - image: "/uploads/work/fiftythree/fiftythree-pencil.png"
-    url: /'work/fiftythree/pencil'
+    url: "/'work/fiftythree/pencil'"
     shadow?: true
 - header: Writing
   body: |-
