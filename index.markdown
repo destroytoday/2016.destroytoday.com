@@ -49,7 +49,6 @@ blocks:
     I’ve been fortunate enough to appear on several podcasts.
 
     - [Pencil vs Pixel](/interviews/pencil-vs-pixel)
-    - [Creative Briefs](/interviews/creative-briefs)
     - [Web Friends](/interviews/web-friends)
     - [The Start](/interviews/the-start)
     - [How to Hold a Pencil](/interviews/how-to-hold-a-pencil)
