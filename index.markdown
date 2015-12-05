@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Index
 date: 2015-11-17 18:56:00 -05:00
 title?: false
 blocks:
@@ -26,16 +26,15 @@ blocks:
     and [Artsy](/work/artsy).
   images:
   - image: "/uploads/work/casper/casper.png"
-    url: "/work/casper"
+    url: http://casper.com
     shadow?: true
   - image: "/uploads/work/fiftythree/fiftythree-paper.png"
-    url: "/fiftythree/paper"
     shadow?: true
   - image: "/uploads/work/dropbox/carousel.png"
-    url: "/work/dropbox/carousel"
+    url: http://carousel.com
     shadow?: true
   - image: "/uploads/work/fiftythree/fiftythree-pencil.png"
-    url: "/work/fiftythree/pencil"
+    url: http://fiftythree.com/pencil
     shadow?: true
 - header: Writing
   body: |-
