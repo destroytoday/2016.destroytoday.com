@@ -6,21 +6,22 @@ blocks:
 - figure:
     image: "/uploads/me-and-macy.jpg"
     caption: This is a photo of me and my cat, Macy Gray.
-  full: true
+  full?: true
 - header: About
-  body: Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with a healthy
+  body: Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with an equal
     balance of design and code. I enjoy working with dependable collaborators who
-    share the same passion for smart and subtle design.
+    share the same passion for simple and smart design.
 - header: Work
   body: I’m currently building my own app, [Cushion](http://cushionapp.com), to help
     freelancers manage their unpredictable schedule and income.
-  images:
+- images:
   - image: "/uploads/work/cushion/cushion-homepage.png"
     url: http://cushionapp.com
     shadow?: true
   - image: "/uploads/work/cushion/cushion-budget.png"
     url: http://cushionapp.com
     shadow?: true
+  wide?: true
 - body: I’ve had the pleasure of working with many wonderful clients, like [Casper](/work/casper),
     [Dropbox](/work/carousel), [Etsy](/work/etsy), [FiftyThree](/work/fiftythree-pencil),
     and [Artsy](/work/artsy).
@@ -40,9 +41,9 @@ blocks:
   body: |-
     I write about the process behind my work and other experiences as a freelancer and independent developer.
 
-    - [Building the Carousel website with Dropbox](/blog/building-carousel)
-    - [Book covers, model airplanes, and my dad](/blog/dad)
-    - [Building the Pencil page with FiftyThree](/blog/building-pencil)
+    - [Building the Dream Sandwich with Casper](/blog/building-the-casper-page)
+    - [Building the Carousel website with Dropbox](/blog/building-the-carousel-website)
+    - [Building the Pencil page with FiftyThree](/blog/building-the-pencil-page)
     - [more...](/blog)
 - header: Interviews
   body: |-

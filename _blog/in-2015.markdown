@@ -1,6 +1,6 @@
 ---
 title: In 2015
-date: 2015-12-01 04:50:00 Z
+date: 2014-12-31 04:50:00 -05:00
 color: 834A7D
 blocks:
 - body: The end of this year really crept up on me. I spent most of it heads-down

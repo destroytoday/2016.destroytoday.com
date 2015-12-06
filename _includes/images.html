@@ -1,6 +1,6 @@
 <div class='block__images-container'>
-  {% for image in block.images %}<div class='
-    {% if block.images.size > 1 %}block__image--half {% endif %}
+  {% for image in include.images %}<div class='
+    {% if include.images.size > 1 %}block__image--half {% endif %}
     {% if image.shadow? %}block__image--shadow {% endif %}
   block__image'>
     {% if image.url %}

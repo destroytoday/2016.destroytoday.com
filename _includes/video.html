@@ -1,0 +1,9 @@
+<div class='block__video-container' style='max-width: {{ include.video.width }}px; max-height: {{ include.video.height }}px;'>
+  <div class='block__video' style='padding-bottom: {{ include.video.height | divided_by: include.video.width | times:100 }}%'>
+    <video poster='{{ include.video.path }}.jpg' autoplay='autoplay' loop='loop' controls='controls' tabindex='0'>
+      <source src='{{ include.video.path }}.mp4' type='video/mp4' />
+      <source src='{{ include.video.path }}.ogv' type='video/ogg' />
+      Video tag not supported. Download the video <a href='{{ include.video.path }}.mp4'>here</a>.
+    </video>
+  </div>
+</div>

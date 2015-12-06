@@ -1,0 +1,26 @@
+---
+layout: default
+---
+{% assign docs = site[page.archive] | sort:'date' | reverse %}
+
+{% for doc in docs %}
+  {% assign year = doc.date | date:'%Y' %}
+
+  {% if year != pyear %}
+    {% if pyear %}
+      </ul></div></div>
+    {% endif %}
+
+    <div class='block'>
+    {% include header.html header=year %}
+
+    <div class='block__body'><ul>
+  {% endif %}
+
+  <li>
+    <a href='{{ doc.url }}'>{{ doc.title }}</a>
+  </li>
+
+  {% assign pyear = year %}
+{% endfor %}
+</ul></div></div>

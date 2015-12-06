@@ -4,18 +4,21 @@
 @import 'reset'
 
 $mobile-side: 0.75rem
-$layout-max-width: 32rem
+$narrow-width: 32rem
+$wide-width: 40rem
 $logo-size: 2.5rem
 
 $break-phone: 25rem
 $break-tablet: 32rem
-$break-mobile-sides: $layout-max-width + $mobile-side * 2
+$break-mobile-sides: $narrow-width + $mobile-side * 2
+$break-wide: $wide-width + $mobile-side * 2
 
 $color-blue: #3498DB
 
 
 body
   font-family: "ff-tisa-web-pro", Georgia, serif
+  background-color: $color-blue
   color: #222
 
   .wf-loading &
@@ -28,10 +31,30 @@ body
 a
   color: inherit
 
+em
+  font-style: italic
+
+img
+  max-width: 100%
+  max-height: 100%
+
+
+.page
+  zoom: 1
+  &:before, &:after
+    content: ""
+    display: table
+
+  &:after
+    clear: both
+
+  min-height: 100vh
+  background-color: white
+
 
 .container
   margin: 0 auto
-  max-width: $layout-max-width
+  max-width: $narrow-width
 
 
 .header
@@ -42,7 +65,7 @@ a
 
 
 .logo-container
-  $max-width: $layout-max-width + $logo-size * 2
+  $max-width: $narrow-width + $logo-size * 2
   @media (min-width: $max-width)
     max-width: $max-width
 
@@ -67,12 +90,18 @@ a
 
 
 .block
+  @extend .container
+
   @media (max-width: $break-mobile-sides)
     padding: 0 $mobile-side
 
   &--full
     padding-left: 0
     padding-right: 0
+
+  &--wide
+    @media (min-width: $break-wide)
+      max-width: $wide-width
 
   .block__title
     margin: 2em 0
@@ -149,7 +178,6 @@ a
 
   img
     width: 100%
-    max-height: 100%
 
   &--shadow img
     box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15)
@@ -180,6 +208,23 @@ a
         margin-right: 0
 
 
+.block__video-container
+  margin: 0 auto
+
+
+.block__video
+  position: relative
+  height: 0
+  padding-bottom: 56.25%
+
+  video
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+
 .block__caption
   p
     font-size: 0.75rem
@@ -201,8 +246,16 @@ a
 
 
 .block__footer
+  display: -webkit-box
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
   display: flex
+  -ms-justify-content: space-between
+  -webkit-justify-content: space-between
   justify-content: space-between
+  -ms-align-items: flex-start
+  -webkit-align-items: flex-start
   align-items: flex-start
 
 
