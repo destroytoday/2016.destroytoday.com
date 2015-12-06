@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+
+    <title>Destroy Today</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' href='/css/style.css'>
+
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'azb3ucj',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+  </head>
+
+  <body style='background-color: #364350'>
+    <div class='page'>
+      <header class='header'>
+        <h1 class='logo-container container'>
+          <a class='logo' href='/' style='background-color: #364350;'>
+            <svg viewbox='0 0 40 40' xmlns="http://www.w3.org/2000/svg"><path d="M10.068 14.328H14.1c.82 0 1.58.107 2.28.32.7.213 1.3.54 1.808.976.507.437.9.997 1.184 1.68.283.683.424 1.488.424 2.416 0 .885-.144 1.656-.432 2.312-.288.656-.685 1.205-1.192 1.648-.507.443-1.11.773-1.808.992-.7.22-1.46.328-2.28.328h-4.016V14.328zm3.888 8.528c1.067 0 1.888-.28 2.464-.84.576-.56.864-1.33.864-2.312 0-.49-.067-.936-.2-1.336s-.336-.74-.608-1.024c-.272-.283-.616-.5-1.032-.656-.416-.155-.912-.232-1.488-.232h-1.472v6.4h1.472zm10.836-6.4h-3.456v-2.128h9.328v2.128h-3.44V25h-2.432v-8.544z" fill="#FFF"/></svg>
+          </a>
+        </h1>
+      </header>
+
+      <main class='layout'>
+        
+        <div class='block'>
+          <h1 class='block__title'>
+  <a href='/blog/building-the-carousel-website/'>Building the Carousel website with Dropbox</a>
+</h1>
+
+        </div>
+        
+
+        
+        <div class='
+          
+          
+        block'>
+          
+
+          
+            <figure class='block__figure'>
+  <div class='block__image'>
+    <img src='/uploads/blog/building-the-carousel-website/hero.jpg'>
+  </div>
+
+  
+</figure>
+
+          
+
+          
+
+          
+
+          
+
+          
+        </div>
+        
+        <div class='
+          
+          
+        block'>
+          
+
+          
+
+          
+
+          
+
+          
+            <div class='block__body'><p>A friend of mine and designer at Dropbox, <a href="http://twitter.com/colin_dunn">Colin Dunn</a>, reached out to me in January. He asked if I would mind him referring me to one of their project managers, <a href="http://twitter.com/prestontweets">Preston Hershorn</a>, for an upcoming gig. Of course, I didn’t mind.</p>
+
+<p>We spoke a few times on the phone, discussing a mystery project that needed a marketing website. I was fresh off of building the <a href="/blog/building-the-pencil-page">Pencil website</a> for <a href="http://fiftythree.com">FiftyThree</a>, and interested in building more of these single-page websites with a touch of something special. These websites allowed me to return to my roots of experimenting with code while also serving an actual purpose.</p>
+
+<p>I flew out to San Francisco to work in-house at Dropbox for a week. On the first day, I sat in on a team meeting to review the state of this mystery project, named “Carousel”. A few team members provided an overview of the branding, along with its history. They demo’d the app itself, their original idea for the website, and storyboards for the upcoming video. It was impressive to see such a large-scale project represented by such a determined team. There was no question they all believed in Carousel.</p>
+</div>
+
+          
+
+          
+        </div>
+        
+        <div class='
+          
+          
+        block'>
+          
+
+          
+
+          
+            <div class='block__video-container' style='max-width: 384.0px; max-height: 804.0px;'>
+  <div class='block__video' style='padding-bottom: 209.375%'>
+    <video poster='/uploads/blog/building-the-carousel-website/mobile.jpg' autoplay='autoplay' loop='loop' controls='controls' tabindex='0'>
+      <source src='/uploads/blog/building-the-carousel-website/mobile.mp4' type='video/mp4' />
+      <source src='/uploads/blog/building-the-carousel-website/mobile.ogv' type='video/ogg' />
+      Video tag not supported. Download the video <a href='/uploads/blog/building-the-carousel-website/mobile.mp4'>here</a>.
+    </video>
+  </div>
+</div>
+
+          
+
+          
+
+          
+
+          
+        </div>
+        
+        <div class='
+          
+          
+        block'>
+          
+
+          
+
+          
+
+          
+
+          
+            <div class='block__body'><p>While at Dropbox HQ, I worked on the mobile website, which would step the viewer through several views. A stack of photos would fall, arranging each photo on the device, to fill in the app’s content. Several transitions would play out, demonstrating the app’s main draw—sharing photos. The photos would then return to a stack and prompt the viewer to download the app.</p>
+
+<p>Since these steps felt very clear-cut, I decided to treat each one as a “slide”. Instead of using a traditional scroll, and adding yet another moving part to the already active page, I locked it in place. I then listened for touch events and advanced to the next step with any vertical movement longer than a thumb’s radius.</p>
+
+<p>The designer, <a href="http://byalicelee.com">Alice Lee</a>, provided me with flats and we discussed possible transitions. I first used Chrome’s device emulator to test the website, but then moved to using an actual device. This helped in discovering a few key areas of improvement where we could tie the transitions closer to the gestures of the viewer. Since we were swiping up to advance, I wanted the content to feel like it was being pushed with the viewer’s thumb or finger—the logo would scale down in the direction of the swipe and the stack of photos would be pulled up from the bottom.</p>
+
+<p>Originally, the stack of photos on the last slide returned to the bottom of the stage, but this felt unnatural, as if the photos were swimming against the current of the swipe. I reversed the positioning of the stack, placing them at the top of the stage, with the content below. Again, following the direction of the swipe, this adjustment really pulled the ending together. The last slide now appears to be the continuation of first slide.</p>
+</div>
+
+          
+
+          
+        </div>
+        
+        <div class='
+          
+          
+        block'>
+          
+
+          
+
+          
+            <div class='block__video-container' style='max-width: 750.0px; max-height: 578.0px;'>
+  <div class='block__video' style='padding-bottom: 77.06666666666668%'>
+    <video poster='/uploads/blog/building-the-carousel-website/intro.jpg' autoplay='autoplay' loop='loop' controls='controls' tabindex='0'>
+      <source src='/uploads/blog/building-the-carousel-website/intro.mp4' type='video/mp4' />
+      <source src='/uploads/blog/building-the-carousel-website/intro.ogv' type='video/ogg' />
+      Video tag not supported. Download the video <a href='/uploads/blog/building-the-carousel-website/intro.mp4'>here</a>.
+    </video>
+  </div>
+</div>
+
+          
+
+          
+
+          
+
+          
+        </div>
+        
+        <div class='
+          
+          
+        block'>
+          
+
+          
+
+          
+
+          
+
+          
+            <div class='block__body'><p>I wrapped up the mobile website that week, with exception for a few content tweaks throughout the rest of the project. After returning home to Brooklyn, I started on the desktop version. Dropbox wanted a completely different experience from mobile, but they also made it clear they didn’t want a separate “m.carousel.com” subdomain. Considering the mobile version used CSS for all of the transitions, I knew I would need to start from scratch with the desktop’s stylesheet. I ended up using the same HTML as the mobile version, but swapping out the stylesheets based on media queries on the stylesheet tags.</p>
+
+<p>The original design of the desktop website used scroll-based breakpoints to trigger each transition. The text would follow one-to-one with the scroll and the device would remain fixed. This worked, but with the constant movement of the text, the viewer would be forced to switch focus between the two sides of the page. I switched the text to a fixed position and animated it in parallel with the device. This felt better, but there was a lot of waiting between transitions—and the wait would grow longer with the height of the window.</p>
+
+<p>With only a couple weeks left, we decided to scrap the triggered animations and start over. Instead of relying on harsh breakpoints, we would track the animation with the scroll. To soften the feel, I took a page out of my Flash days and added friction to the scroll. This allowed the animations to ease into place without feeling so jarring. A few people at Dropbox looked at the website and felt the animations needed to snap into place better. At that time, they were a bit loose—you could easily scrub through the entire animation with a couple swipes on the trackpad.</p>
+</div>
+
+          
+
+          
+        </div>
+        
+        <div class='
+          
+          
+        block'>
+          
+
+          
+
+          
+            <div class='block__video-container' style='max-width: 750.0px; max-height: 578.0px;'>
+  <div class='block__video' style='padding-bottom: 77.06666666666668%'>
+    <video poster='/uploads/blog/building-the-carousel-website/conversation.jpg' autoplay='autoplay' loop='loop' controls='controls' tabindex='0'>
+      <source src='/uploads/blog/building-the-carousel-website/conversation.mp4' type='video/mp4' />
+      <source src='/uploads/blog/building-the-carousel-website/conversation.ogv' type='video/ogg' />
+      Video tag not supported. Download the video <a href='/uploads/blog/building-the-carousel-website/conversation.mp4'>here</a>.
+    </video>
+  </div>
+</div>
+
+          
+
+          
+
+          
+
+          
+        </div>
+        
+        <div class='
+          
+          
+        block'>
+          
+
+          
+
+          
+
+          
+
+          
+            <div class='block__body'><p>I definitely didn’t want to return to the triggered approach from before, so I improvised. Since I was already using friction for a softer feel, I could simply increase the friction based on the scroll’s proximity to each lockpoint. In the code, I call these “speed bumps” and that’s exactly what they are. And, to make these speed bumps less apparent, I ease the friction based on the actual distance. This was enough to achieve the slick movement of the transitions while snapping each slide into place.</p>
+
+<p>In the final week, there were several more revisions to the content. Initially, the desktop version had twice as many transitions, with each one split into separate parts. The second slide would swipe the screen up to portray a greater collection of photos. The third slide would transition into the conversation view with a fourth slide for easing the second message in from the bottom. We simplified these transitions by combining them, one by one, until we were left with three essential slides.</p>
+
+<p>At launch, I let out a great sigh of relief. This project took a lot out of me because it consisted of countless technical challenges and several changes in direction late in the game. I’m happy with the end result, though. If we settled at any point instead of pushing through the difficult decisions, I think we would have been left with regret. Looking back, I’m incredibly grateful and fortunate that such a small gesture on Colin’s part, of putting my name in the hat, led to this collaboration.</p>
+</div>
+
+          
+
+          
+        </div>
+        
+        <div class='
+          
+          
+        block'>
+          
+            <h2 class='block__header'>Related links</h2>
+
+          
+
+          
+
+          
+
+          
+
+          
+            <div class='block__body'><ul>
+  <li><a href="https://carousel.com">carousel.com</a></li>
+</ul>
+</div>
+
+          
+
+          
+        </div>
+        
+
+        
+
+        
+        <div class='block'>
+          <div class='block__footer'>
+            
+            <time class='block__time'>
+              <a href='/blog/building-the-carousel-website/'>Apr 15, 2014</a>
+            </time>
+            
+
+            
+            <nav class='block__nav'>
+              <a href='/blog'>Blog</a>
+            </nav>
+            
+          </div>
+        </div>
+        
+      </main>
+
+      <footer class='footer container'>
+        <p>&copy; 2015 Destroy Today, LLC. All Rights Reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>
