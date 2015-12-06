@@ -1,10 +1,10 @@
 ---
 title: Building the Carousel website with Dropbox
-date: 2014-04-15 04:50:00 -05:00
+date: 2014-04-15 05:50:00 -04:00
 color: 364350
 blocks:
 - figure:
-    image: /uploads/blog/building-the-carousel-website/hero.jpg
+    image: "/uploads/blog/building-the-carousel-website/hero.jpg"
 - body: |-
     A friend of mine and designer at Dropbox, [Colin Dunn](http://twitter.com/colin_dunn), reached out to me in January. He asked if I would mind him referring me to one of their project managers, [Preston Hershorn](http://twitter.com/prestontweets), for an upcoming gig. Of course, I didn’t mind.
 
@@ -12,7 +12,7 @@ blocks:
 
     I flew out to San Francisco to work in-house at Dropbox for a week. On the first day, I sat in on a team meeting to review the state of this mystery project, named “Carousel”. A few team members provided an overview of the branding, along with its history. They demo’d the app itself, their original idea for the website, and storyboards for the upcoming video. It was impressive to see such a large-scale project represented by such a determined team. There was no question they all believed in Carousel.
 - video:
-    path: /uploads/blog/building-the-carousel-website/mobile
+    path: "/uploads/blog/building-the-carousel-website/mobile"
     width: 384.0
     height: 804.0
 - body: |-
@@ -24,7 +24,7 @@ blocks:
 
     Originally, the stack of photos on the last slide returned to the bottom of the stage, but this felt unnatural, as if the photos were swimming against the current of the swipe. I reversed the positioning of the stack, placing them at the top of the stage, with the content below. Again, following the direction of the swipe, this adjustment really pulled the ending together. The last slide now appears to be the continuation of first slide.
 - video:
-    path: /uploads/blog/building-the-carousel-website/intro
+    path: "/uploads/blog/building-the-carousel-website/intro"
     width: 750.0
     height: 578.0
 - body: |-
@@ -34,7 +34,7 @@ blocks:
 
     With only a couple weeks left, we decided to scrap the triggered animations and start over. Instead of relying on harsh breakpoints, we would track the animation with the scroll. To soften the feel, I took a page out of my Flash days and added friction to the scroll. This allowed the animations to ease into place without feeling so jarring. A few people at Dropbox looked at the website and felt the animations needed to snap into place better. At that time, they were a bit loose—you could easily scrub through the entire animation with a couple swipes on the trackpad.
 - video:
-    path: /uploads/blog/building-the-carousel-website/conversation
+    path: "/uploads/blog/building-the-carousel-website/conversation"
     width: 750.0
     height: 578.0
 - body: |-
@@ -44,6 +44,6 @@ blocks:
 
     At launch, I let out a great sigh of relief. This project took a lot out of me because it consisted of countless technical challenges and several changes in direction late in the game. I’m happy with the end result, though. If we settled at any point instead of pushing through the difficult decisions, I think we would have been left with regret. Looking back, I’m incredibly grateful and fortunate that such a small gesture on Colin’s part, of putting my name in the hat, led to this collaboration.
 - header: Related links
-  body: |-
-    - [carousel.com](https://carousel.com)
+  body: "- [carousel.com](https://carousel.com)"
 ---
+

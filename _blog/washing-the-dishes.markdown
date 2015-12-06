@@ -1,11 +1,12 @@
 ---
 title: Washing the Dishes and Other Moments of Thought
-date: 2013-08-04 04:50:00 -05:00
+date: 2013-08-04 05:50:00 -04:00
 color: 4C7EA5
 blocks:
 - figure:
-    image: /uploads/blog/washing-the-dishes/sink.jpg
+    image: "/uploads/blog/washing-the-dishes/sink.jpg"
 ---
+
 When I turned seven years old, my family moved from the city of Allentown to the suburbs of Macungie. Our house was one of the first built in the development, with a quarter-acre backyard consisting of only dirt and rock. My mom spent most of her time transforming it into a typical yard in the suburbs—full of healthy grass and tall trees lining the perimeter. One day, she found a flat rock the size of a seat and placed it upon one of the tree beds. Mom called that our “thinking rock.” Whenever we needed some alone time to think, we could walk to the back of the yard and sit on it. I still remember it for that purpose. To anyone else, it is a rock, but to my mom, it is a place for thinking.
 
 A couple years ago, I threw out my back. This wasn’t the first time I threw out my back, but it was the first time the pain lasted more than a day—eight months to be exact. I tried everything from foam roller exercises and spine alignment tools to chiropractors and physical therapists. Losing hope of recovery, I decided to try acupuncture. Twice a week, I would spend 20 minutes lying face down with a dozen needles strategically placed in my back. What was first considered to be a last resort for relief turned into one of my most precious times for thinking. I found myself relying on this time to clear my head and address anything that was plaguing me that week. I would leave each session feeling rested and motivated to seize the day.

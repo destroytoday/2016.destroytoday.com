@@ -1,10 +1,10 @@
 ---
 title: Lessons Learned In a Year On My Own
-date: 2013-03-30 04:50:00 -05:00
+date: 2013-03-30 05:50:00 -04:00
 color: 499462
 blocks:
 - figure:
-    image: /uploads/blog/lessons-learned-in-a-year-on-my-own/desk.jpg
+    image: "/uploads/blog/lessons-learned-in-a-year-on-my-own/desk.jpg"
   wide?: true
 - body: |-
     Early last year, I started renting a desk at [Studiomates](http://studiomates.com) while working remotely for Adobe. With the majority of mates either running their own companies or freelancing, I felt the itch to follow suit. This feeling has been with me ever since I first started working for someone else. I knew that one day it would be too much to bear.
@@ -37,7 +37,19 @@ blocks:
 
     On the reverse end, don’t wait for someone to approach you. Reach out to those you want to work with. Send them a note saying you’re available and interested in working together. I sit next to the [Oak guys](http://oak.is) at Studiomates and for months, I watched them ship amazing products. One day, on a whim, I wrote a short email to [Skylar](http://twitter.com/sskylar) simply saying I’d love to work together. From there, I was able to lend a hand with [Dropmark](http://dropmark.com).
 - header: Know your limits
-  body: Leading up to the TeuxDeux launch, I worked 40 hours over the course of a weekend. I felt a constant pressure on my forehead and shots of pain in my chest. I definitely exceeded my limits and my body let me know it. Never work this hard. Ever. Whatever you’re working on is not worth the mental and physical pain. I learned how to tell myself that deadlines will come and go, and everything will be fine, regardless of whether we finish in time. My mom always says, “Tomorrow is another day.” Some nights, I need to say this to myself, but it helps when I do.
+  body: Leading up to the TeuxDeux launch, I worked 40 hours over the course of a
+    weekend. I felt a constant pressure on my forehead and shots of pain in my chest.
+    I definitely exceeded my limits and my body let me know it. Never work this hard.
+    Ever. Whatever you’re working on is not worth the mental and physical pain. I
+    learned how to tell myself that deadlines will come and go, and everything will
+    be fine, regardless of whether we finish in time. My mom always says, “Tomorrow
+    is another day.” Some nights, I need to say this to myself, but it helps when
+    I do.
 - header: Go for it
-  body: I’ve learned a lot about myself since being on my own. I feel stronger and more independent than I’ve ever felt in my entire life—even if my internal voice is much louder and longer-winded than ever before. Every project is a challenge and provides a real sense of ownership. Each day ends with great excitement for the next. Is it for everyone? No, but if you have the itch, go for it.
+  body: I’ve learned a lot about myself since being on my own. I feel stronger and
+    more independent than I’ve ever felt in my entire life—even if my internal voice
+    is much louder and longer-winded than ever before. Every project is a challenge
+    and provides a real sense of ownership. Each day ends with great excitement for
+    the next. Is it for everyone? No, but if you have the itch, go for it.
 ---
+
