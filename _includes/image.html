@@ -1,0 +1,11 @@
+<div class='{% if include.image.size == "half" %}block__image--half {% endif %}
+  {% if include.image.shadow? %}block__image--shadow {% endif %} block__image'>
+  {% if include.image.url %}
+    {% assign path = include.image.url | slice:0,1 %}
+    <a href='{{ include.image.url }}'{% unless path == '/' %} target='_blank'{% endunless %}>
+  {% endif %}
+
+  <img src='{{ include.image.image | default: include.image }}'>
+
+  {% if include.image.url %}</a>{% endif %}
+</div>

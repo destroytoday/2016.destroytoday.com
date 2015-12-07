@@ -6,6 +6,9 @@ collections:
   blog:
     title: Blog
     output: true
+  talks:
+    title: Talks
+    output: true
   interviews:
     title: Interviews
     output: true
@@ -20,6 +23,11 @@ defaults:
 - scope:
     path: ''
     type: blog
+  values:
+    timestamp?: true
+- scope:
+    path: ''
+    type: talks
   values:
     timestamp?: true
 - scope:

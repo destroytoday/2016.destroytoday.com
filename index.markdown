@@ -4,38 +4,45 @@ date: 2015-11-17 18:56:00 -05:00
 title?: false
 blocks:
 - figure:
-    image: "/uploads/me-and-macy.jpg"
-    caption: This is a photo of me and my cat, Macy Gray.
+    image: "/uploads/me-creative-mornings.jpg"
+    url: /talks/creative-mornings
+    caption: |-
+      Speaking at [Creative Mornings](/talks/creative-mornings) about [Book Covers, Model Airplanes, and My Dad](/blog/my-dad).
   full?: true
 - header: About
   body: Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with an equal
-    balance of design and code. I enjoy working with dependable collaborators who
+    balance of design and code. I enjoy working with positive people who
     share the same passion for simple and smart design.
 - header: Work
-  body: I’m currently building my own app, [Cushion](http://cushionapp.com), to help
+  body: I’m currently building my own app, [Cushion](http://cushionapp.com){:target='_blank'}, to help
     freelancers manage their unpredictable schedule and income.
 - images:
   - image: "/uploads/work/cushion/cushion-homepage.png"
     url: http://cushionapp.com
+    size: half
     shadow?: true
   - image: "/uploads/work/cushion/cushion-budget.png"
     url: http://cushionapp.com
+    size: half
     shadow?: true
   wide?: true
-- body: I’ve had the pleasure of working with many wonderful clients, like [Casper](/work/casper),
-    [Dropbox](/work/carousel), [Etsy](/work/etsy), [FiftyThree](/work/fiftythree-pencil),
-    and [Artsy](/work/artsy).
+- body: I’ve had the pleasure of working with many great collaborators, like [Casper](http://casper.com){:target='_blank'},
+    [Dropbox](/blog/building-the-carousel-website), [Etsy](http://etsy.com){:target='_blank'}, [FiftyThree](/blog/building-the-pencil-page), [Adobe](http://adobe.com){:target='_blank'}, and [Artsy](http://artsy.net){:target='_blank'}.
   images:
   - image: "/uploads/work/casper/casper.png"
     url: http://casper.com
+    size: half
     shadow?: true
   - image: "/uploads/work/fiftythree/fiftythree-paper.png"
+    size: half
     shadow?: true
   - image: "/uploads/work/dropbox/carousel.png"
-    url: http://carousel.com
+    url: /blog/building-the-carousel-website
+    size: half
     shadow?: true
   - image: "/uploads/work/fiftythree/fiftythree-pencil.png"
-    url: http://fiftythree.com/pencil
+    url: /blog/building-the-pencil-page
+    size: half
     shadow?: true
 - header: Writing
   body: |-
@@ -45,9 +52,15 @@ blocks:
     - [Building the Carousel website with Dropbox](/blog/building-the-carousel-website)
     - [Building the Pencil page with FiftyThree](/blog/building-the-pencil-page)
     - [more...](/blog)
-- header: Interviews
+- header: Speaking
   body: |-
-    I’ve been fortunate enough to appear on several podcasts.
+    I occasionally speak at conferences and teach design workshops.
+
+    - [Create Upstate](http://createupstate.com){:target='_blank'} *(upcoming)*
+    - [Creative Mornings](/talks/creative-mornings)
+    - Flash and the City *(not recorded)*
+
+    And, I’ve been fortunate enough to appear on several podcasts.
 
     - [Pencil vs Pixel](/interviews/pencil-vs-pixel)
     - [Web Friends](/interviews/web-friends)

@@ -1,7 +1,5 @@
 <figure class='block__figure'>
-  <div class='block__image'>
-    <img src='{{ include.figure.image }}'>
-  </div>
+  {% include image.html image=include.figure %}
 
   {% if include.figure.caption %}
   <figcaption class='block__caption'>

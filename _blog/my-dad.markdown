@@ -3,8 +3,7 @@ title: Book Covers, Model Airplanes, and My Dad
 date: 2014-01-05 18:56:00 -05:00
 color: bab0a8
 blocks:
-- body: "*This post is an extended transcription of my CreativeMornings talk, given
-    on December 13th. The theme was “Make,” and instead of speaking about my own work,
+- body: "*This is an extended transcription of my [CreativeMornings talk](https://creativemornings.com/talks/want-to-speak-at-creativemornings). The theme was “Make,” and instead of speaking about my own work,
     I decided to talk about my dad, his work, and how he turned me into the maker
     I am today.*"
 - figure:
