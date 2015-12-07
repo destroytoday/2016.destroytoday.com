@@ -7,7 +7,8 @@ blocks:
     image: "/uploads/me-creative-mornings.jpg"
     url: "/talks/creative-mornings"
     caption: Speaking at [Creative Mornings](/talks/creative-mornings) about [Book
-      Covers, Model Airplanes, and My Dad](/blog/my-dad).
+      Covers, Model Airplanes, and My Dad](/blog/my-dad). *(photo by [Bekka Palmer](http://bekkapalmer.com){:target='_blank'})*
+  wide?: true
   full?: true
 - header: About
   body: Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with an equal
