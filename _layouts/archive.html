@@ -18,7 +18,8 @@ layout: default
   {% endif %}
 
   <li>
-    <a href='{{ doc.url }}'>{{ doc.title }}</a>
+    {% assign path = doc.url | slice:0,1 %}
+    <a href='{{ doc.url }}'{% unless path == '/' %} target='_blank'{% endunless %}>{{ doc.title }}</a> {% unless path == '/' %}&neArr;{% endunless %}
   </li>
 
   {% assign pyear = year %}
