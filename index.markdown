@@ -5,17 +5,17 @@ title?: false
 blocks:
 - figure:
     image: "/uploads/me-creative-mornings.jpg"
-    url: /talks/creative-mornings
-    caption: |-
-      Speaking at [Creative Mornings](/talks/creative-mornings) about [Book Covers, Model Airplanes, and My Dad](/blog/my-dad).
+    url: "/talks/creative-mornings"
+    caption: Speaking at [Creative Mornings](/talks/creative-mornings) about [Book
+      Covers, Model Airplanes, and My Dad](/blog/my-dad).
   full?: true
 - header: About
   body: Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with an equal
-    balance of design and code. I enjoy working with positive people who
-    share the same passion for simple and smart design.
+    balance of design and code. I enjoy working with positive people who share the
+    same passion for simple and smart design.
 - header: Work
-  body: I’m currently building my own app, [Cushion](http://cushionapp.com){:target='_blank'}, to help
-    freelancers manage their unpredictable schedule and income.
+  body: I’m currently building my own app, [Cushion](http://cushionapp.com){:target='_blank'},
+    to help freelancers manage their unpredictable schedule and income.
 - images:
   - image: "/uploads/work/cushion/cushion-homepage.png"
     url: http://cushionapp.com
@@ -27,7 +27,9 @@ blocks:
     shadow?: true
   wide?: true
 - body: I’ve had the pleasure of working with many great collaborators, like [Casper](http://casper.com){:target='_blank'},
-    [Dropbox](/blog/building-the-carousel-website), [Etsy](http://etsy.com){:target='_blank'}, [FiftyThree](/blog/building-the-pencil-page), [Adobe](http://adobe.com){:target='_blank'}, and [Artsy](http://artsy.net){:target='_blank'}.
+    [Dropbox](/blog/building-the-carousel-website), [Etsy](http://etsy.com){:target='_blank'},
+    [FiftyThree](/blog/building-the-pencil-page), [Adobe](http://adobe.com){:target='_blank'},
+    and [Artsy](http://artsy.net){:target='_blank'}.
   images:
   - image: "/uploads/work/casper/casper.png"
     url: http://casper.com
@@ -37,11 +39,11 @@ blocks:
     size: half
     shadow?: true
   - image: "/uploads/work/dropbox/carousel.png"
-    url: /blog/building-the-carousel-website
+    url: "/blog/building-the-carousel-website"
     size: half
     shadow?: true
   - image: "/uploads/work/fiftythree/fiftythree-pencil.png"
-    url: /blog/building-the-pencil-page
+    url: "/blog/building-the-pencil-page"
     size: half
     shadow?: true
 - header: Writing

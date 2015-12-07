@@ -1,6 +1,6 @@
 ---
 title: Creative Mornings
-date: 2013-12-13 21:14:00 -04:00
+date: 2013-12-13 20:14:00 -05:00
 color: f00
 blocks:
 - video:
@@ -13,3 +13,4 @@ blocks:
 
     *You can read an extended transcription of my talk [here](/blog/my-dad).*
 ---
+

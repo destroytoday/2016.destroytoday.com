@@ -6,11 +6,11 @@ collections:
   blog:
     title: Blog
     output: true
-  talks:
-    title: Talks
-    output: true
   interviews:
     title: Interviews
+    output: true
+  talks:
+    title: Talks
     output: true
   uploads:
     title: Uploads
