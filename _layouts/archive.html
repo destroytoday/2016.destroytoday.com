@@ -18,8 +18,7 @@ layout: default
   {% endif %}
 
   <li>
-    {% assign path = doc.url | slice:0,1 %}
-    <a href='{{ doc.url }}'{% unless path == '/' %} target='_blank'{% endunless %}>{{ doc.title }}</a> {% unless path == '/' %}&neArr;{% endunless %}
+    <a href='{{ doc.external | default: doc.url }}'{% if doc.external %} target='_blank'{% endif %}>{{ doc.title }}</a> {% if doc.external %}&neArr;{% endif %}
   </li>
 
   {% assign pyear = year %}
