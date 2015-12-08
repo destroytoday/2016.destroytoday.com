@@ -2,7 +2,6 @@
 title: Index
 date: 2015-11-17 18:56:00 -05:00
 title?: false
-timestamp?: false
 blocks:
 - figure:
     image: "/uploads/me-creative-mornings.jpg"
@@ -14,7 +13,7 @@ blocks:
 - header: About
   body: Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with an equal
     balance of design and code. I enjoy working with positive people who share the
-    same passion for simple and smart design.
+    same passion for simple and thoughtful design.
 - header: Work
   body: I’m currently building my own app, [Cushion](http://cushionapp.com){:target='_blank'},
     to help freelancers manage their unpredictable schedule and income.
