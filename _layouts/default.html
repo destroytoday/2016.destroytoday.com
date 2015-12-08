@@ -4,7 +4,7 @@
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 
-    <title>Destroy Today</title>
+    <title>{% unless page.url == '/' %}{{ page.title }} - {% endunless %}{{ site.title }}</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <link rel='stylesheet' href='/css/style.css'>
