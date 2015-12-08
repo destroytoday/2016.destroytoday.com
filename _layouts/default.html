@@ -84,7 +84,9 @@
             </time>
             {% endif %}
 
-            {% if page.collection %}
+            {% assign collection = site.collections | where:'label',page.collection | first %}
+
+            {% if page.collection and collection.archive? %}
             <nav class='block__nav'>
               <a href='/{{ page.collection }}'>{{ page.collection | capitalize }}</a>
             </nav>

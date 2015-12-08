@@ -6,9 +6,11 @@ author: Jonnie Hallman
 collections:
   writings:
     title: Writings
+    archive?: true
     output: true
   interviews:
     title: Interviews
+    archive?: true
     output: true
   talks:
     title: Talks
