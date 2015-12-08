@@ -37,11 +37,12 @@ blocks:
     url: http://casper.com
     size: half
     shadow?: true
-  - image: "/uploads/work/fiftythree/fiftythree-paper.png"
-    size: half
-    shadow?: true
   - image: "/uploads/work/dropbox/carousel.png"
     url: "/writings/building-the-carousel-website"
+    size: half
+    shadow?: true
+  - image: "/uploads/work/dropbox/mailbox.png"
+    url: "/writings/building-the-mailbox-website"
     size: half
     shadow?: true
   - image: "/uploads/work/fiftythree/fiftythree-pencil.png"
