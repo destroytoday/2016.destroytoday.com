@@ -2,28 +2,31 @@
 title: Destroy Today
 url: http://destroytoday.com
 timezone: America/New_York
-author: Jonnie Hallman
 collections:
-  writings:
-    title: Writings
-    archive?: true
+  blog:
+    title: Blog
     output: true
   interviews:
     title: Interviews
-    archive?: true
     output: true
+    archive?: true
   talks:
     title: Talks
     output: true
   uploads:
     title: Uploads
     output: true
+  writings:
+    title: Writings
+    output: true
+    archive?: true
 defaults:
 - scope:
     path: ''
   values:
     layout: default
     timestamp?: true
+author: Jonnie Hallman
 permalink: pretty
 sass:
   sass_dir: css/_includes
