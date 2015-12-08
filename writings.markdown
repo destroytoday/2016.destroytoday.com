@@ -5,4 +5,3 @@ layout: archive
 archive: writings
 timestamp?: false
 ---
-
