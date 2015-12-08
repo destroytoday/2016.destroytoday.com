@@ -1,8 +1,8 @@
 ---
 title: Selected Writings
 date: 2015-12-05 17:15:00 -05:00
-permalink: "/blog/"
 layout: archive
-archive: blog
+archive: writings
+timestamp?: false
 ---
 

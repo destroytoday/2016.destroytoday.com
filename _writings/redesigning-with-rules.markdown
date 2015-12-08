@@ -4,7 +4,7 @@ date: 2013-06-17 05:50:00 -04:00
 color: 005dba
 blocks:
 - figure:
-    image: "/uploads/blog/redesigning-with-rules/room.jpg"
+    image: "/uploads/writings/redesigning-with-rules/room.jpg"
   wide?: true
 ---
 

@@ -4,7 +4,7 @@ date: 2013-03-30 05:50:00 -04:00
 color: 499462
 blocks:
 - figure:
-    image: "/uploads/blog/lessons-learned-in-a-year-on-my-own/desk.jpg"
+    image: "/uploads/writings/lessons-learned-in-a-year-on-my-own/desk.jpg"
   wide?: true
 - body: |-
     Early last year, I started renting a desk at [Studiomates](http://studiomates.com) while working remotely for Adobe. With the majority of mates either running their own companies or freelancing, I felt the itch to follow suit. This feeling has been with me ever since I first started working for someone else. I knew that one day it would be too much to bear.

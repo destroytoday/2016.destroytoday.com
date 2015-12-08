@@ -1,10 +1,11 @@
 ---
-title: Destroy Today 2016
-url: http://2016.destroytoday.com
+title: Destroy Today
+url: http://destroytoday.com
 timezone: America/New_York
+author: Jonnie Hallman
 collections:
-  blog:
-    title: Blog
+  writings:
+    title: Writings
     output: true
   interviews:
     title: Interviews
@@ -20,20 +21,6 @@ defaults:
     path: ''
   values:
     layout: default
-- scope:
-    path: ''
-    type: blog
-  values:
-    timestamp?: true
-- scope:
-    path: ''
-    type: talks
-  values:
-    timestamp?: true
-- scope:
-    path: ''
-    type: interviews
-  values:
     timestamp?: true
 permalink: pretty
 sass:

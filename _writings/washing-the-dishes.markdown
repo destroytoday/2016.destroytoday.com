@@ -4,7 +4,7 @@ date: 2013-08-04 05:50:00 -04:00
 color: 4C7EA5
 blocks:
 - figure:
-    image: "/uploads/blog/washing-the-dishes/sink.jpg"
+    image: "/uploads/writings/washing-the-dishes/sink.jpg"
 ---
 
 When I turned seven years old, my family moved from the city of Allentown to the suburbs of Macungie. Our house was one of the first built in the development, with a quarter-acre backyard consisting of only dirt and rock. My mom spent most of her time transforming it into a typical yard in the suburbs—full of healthy grass and tall trees lining the perimeter. One day, she found a flat rock the size of a seat and placed it upon one of the tree beds. Mom called that our “thinking rock.” Whenever we needed some alone time to think, we could walk to the back of the yard and sit on it. I still remember it for that purpose. To anyone else, it is a rock, but to my mom, it is a place for thinking.
