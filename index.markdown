@@ -2,6 +2,7 @@
 title: Index
 date: 2015-11-17 18:56:00 -05:00
 title?: false
+timestamp?: false
 blocks:
 - figure:
     image: "/uploads/me-creative-mornings.jpg"
