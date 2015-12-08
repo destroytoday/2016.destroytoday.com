@@ -37,42 +37,7 @@
       </header>
 
       <main class='layout'>
-        {% unless page.title? == false %}
-        <div class='block'>
-          {% include title.html %}
-        </div>
-        {% endunless %}
-
-        {% for block in page.blocks %}
-        <div class='
-          {% if block.full? %}block--full {% endif %}
-          {% if block.wide? %}block--wide {% endif %}
-        block'>
-          {% if block.header %}
-            {% include header.html header=block.header %}
-          {% endif %}
-
-          {% if block.figure %}
-            {% include figure.html figure=block.figure %}
-          {% endif %}
-
-          {% if block.video %}
-            {% include video.html video=block.video %}
-          {% endif %}
-
-          {% if block.audio %}
-            {% include audio.html audio=block.audio %}
-          {% endif %}
-
-          {% if block.body %}
-            {% include body.html body=block.body %}
-          {% endif %}
-
-          {% if block.images %}
-            {% include images.html images=block.images %}
-          {% endif %}
-        </div>
-        {% endfor %}
+        {% include content.html page=page %}
 
         {% if content.size > 1 %}
         <div class='block'>
