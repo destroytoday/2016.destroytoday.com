@@ -3,7 +3,7 @@ title: 2015 Recap
 date: 2015-12-31 09:53:00 -05:00
 color: 7c6fff
 blocks:
-- body: Waiting until the last possible moment to write these review posts seems to
+- body: Waiting until the last possible moment to write these recap posts seems to
     have become a tradition for me. This year, I decided to follow up on [last year’s
     goals](/writings/in-2015) *and* list a few new ones for 2016.
 - header: Ship Cushion
@@ -15,8 +15,15 @@ blocks:
     So far, I’m about halfway there, and I’m ecstatic about Cushion’s future—especially
     this upcoming year. I plan to hire a few freelancers to help get Cushion to the
     next level, which is both exciting and terrifying.
-  image: "/uploads/work/cushion/cushion-homepage.png"
+  figure:
+    image: "/uploads/writings/2015-recap/cushion-homepage.png"
+    url: http://cushionapp.com
+    shadow?: true
 - header: Use spreadsheets
+  figure:
+    image: "/uploads/writings/2015-recap/cushion-expenses.png"
+    url: http://cushionapp.com/expenses
+    shadow?: true
   body: I didn’t take advantage of spreadsheets as much as I had hoped this past year,
     but I *did* use spreadsheets to manage [Cushion’s expenses page](http://cushionapp.com/expenses)
     as well as track my business expenses. After suffering through accounting software
@@ -31,6 +38,10 @@ blocks:
     for an indoor basketball league that starts in January, so hopefully that will
     get me back into a healthy routine.
 - header: One week between client gigs
+  figure:
+    image: "/uploads/writings/2015-recap/casper.jpg"
+    url: http://casper.com
+    shadow?: true
   body: I’m happy to share that I’ve gone a step further than one week between client
     gigs. Because of my focus on Cushion, I’ve been fortunate enough to take between
     1-3 months off between clients this past year. Early in the year, I worked with
@@ -46,6 +57,8 @@ blocks:
     an app. I hope to book a few more talks throughout the year, so if you know a
     conference that would be a good fit, [let me know](mailto:jonnie@destroytoday.com)!
 - header: Take more photos
+  figure:
+    image: "/uploads/writings/2015-recap/jen-lettering.jpg"
   body: I beat myself up over not taking as many photos as I once did—especially after
     digging through old hard drives and finding that even the “bad” photos are incredibly
     valuable to me years later. Going forward, I *need* to capture my life on a daily
@@ -62,7 +75,7 @@ blocks:
     for the next few, I’d love to hear.
 - header: Play more video games
   body: In 2015, I played *plenty* of video games. It’s easy when your wife plays
-    more than you. After breezing through the PS4-remastered Grand Theft Auto V, Arkham
+    more than you. After breezing through the remastered Grand Theft Auto V, Arkham
     Knight, and quitting The Last of Us out of pure fear, I’m now deep into Assassin’s
     Creed Syndicate and Star Wars Battlefront. I don’t know what to tackle once I’m
     done with those two, but I love free roaming games.
@@ -74,6 +87,8 @@ blocks:
     of dozens of coffee shops I still need to visit, so maybe that should be my driving
     force.
 - header: Take a trip outside of Brooklyn every 3 months
+  figure:
+    image: "/uploads/writings/2015-recap/jen-jonnie-wv.jpg"
   body: I‘m proud to say that we traveled a fair amount this past year. We weren’t
     one of those couples who is constantly instagramming exotic locations around the
     world, but we at least got out of the city every three months—traveling to [Upstate
@@ -106,6 +121,8 @@ blocks:
     for the world to reference and utilize. I’d be happy with even contributing the
     occasional one-line pull request.
 - header: Spend time in the kitchen
+  figure:
+    image: "/uploads/writings/2015-recap/kitchen.jpg"
   body: For those who don’t live in a tiny apartment or rely on Seamless for dinner,
     you might have a difficult time grasping the fact that we don’t use our kitchen.
     Now that we have a [new floor](https://www.instagram.com/p/-XHT2niMQN) and more
