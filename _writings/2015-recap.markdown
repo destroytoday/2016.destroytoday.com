@@ -15,6 +15,7 @@ blocks:
     So far, I’m about halfway there, and I’m ecstatic about Cushion’s future—especially
     this upcoming year. I plan to hire a few freelancers to help get Cushion to the
     next level, which is both exciting and terrifying.
+  image: "/uploads/work/cushion/cushion-homepage.png"
 - header: Use spreadsheets
   body: I didn’t take advantage of spreadsheets as much as I had hoped this past year,
     but I *did* use spreadsheets to manage [Cushion’s expenses page](http://cushionapp.com/expenses)
