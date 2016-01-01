@@ -18,15 +18,13 @@ blocks:
   figure:
     image: "/uploads/writings/2015-recap/cushion-homepage.png"
     url: http://cushionapp.com
-    caption: |-
-      [cushionapp.com](http://cushionapp.com)
+    caption: "[cushionapp.com](http://cushionapp.com)"
     shadow?: true
 - header: Use spreadsheets
   figure:
     image: "/uploads/writings/2015-recap/cushion-expenses.png"
     url: http://cushionapp.com/expenses
-    caption: |-
-      [Cushion Expenses](http://cushionapp.com/expenses)
+    caption: "[Cushion Expenses](http://cushionapp.com/expenses)"
     shadow?: true
   body: I didn’t take advantage of spreadsheets as much as I had hoped this past year,
     but I *did* use spreadsheets to manage [Cushion’s expenses page](http://cushionapp.com/expenses)
@@ -45,8 +43,7 @@ blocks:
   figure:
     image: "/uploads/writings/2015-recap/casper.jpg"
     url: http://casper.com
-    caption: |-
-      [casper.com](http://casper.com)
+    caption: "[casper.com](http://casper.com)"
     shadow?: true
   body: I’m happy to share that I’ve gone a step further than one week between client
     gigs. Because of my focus on Cushion, I’ve been fortunate enough to take between
@@ -96,8 +93,7 @@ blocks:
 - header: Take a trip outside of Brooklyn every 3 months
   figure:
     image: "/uploads/writings/2015-recap/jen-jonnie-wv.jpg"
-    caption: |-
-      [Jen](http://jenmussari.com) and I at Coopers Rock, WV
+    caption: "[Jen](http://jenmussari.com) and I at Coopers Rock, WV"
   body: I‘m proud to say that we traveled a fair amount this past year. We weren’t
     one of those couples who is constantly instagramming exotic locations around the
     world, but we at least got out of the city every three months—traveling to [Upstate
