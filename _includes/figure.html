@@ -1,4 +1,4 @@
-<figure class='block__figure'>
+<figure class='{% if include.figure.caption %}block__figure--captioned {% endif %}block__figure'>
   {% include image.html image=include.figure %}
 
   {% if include.figure.caption %}
