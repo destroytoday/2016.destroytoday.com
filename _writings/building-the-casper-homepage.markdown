@@ -4,8 +4,6 @@ date: 2016-01-02 15:02:00 -05:00
 published: false
 ---
 
-| EDIT
-
 In September, I decided that it was time to take a break from client work. I would focus 100% of my time on my freelancing app, Cushion, and hopefully double its subscriber count by the end of the year. 
 
 One week later, however, I received an email from Gabe Flateman, CTO and co-founder of Casper. If you live in New York, you’re already well aware of Casper because their subway ads are everywhere. In short, Casper is mattress startup with emphasis on quality and customer support.
