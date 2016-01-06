@@ -32,14 +32,13 @@ blocks:
     I had experience animating with still images from my work on the [FiftyThree Pencil page](/writings/building-the-pencil-page), where a hand holding a Pencil rotates as the user scrolls. That, however, was only a small section of the page using only a dozen images. The Casper website, on the other hand, would potentially be hundreds of hi-res images spanning the entire window.
 - figure:
     video: "/uploads/writings/building-the-casper-homepage/pencil"
-    width: 1280.0
-    height: 720.0
+    width: 1280
+    height: 720
     shadow?: true
     caption: "[FiftyThree Pencil website](/writings/building-the-pencil-page)"
   wide?: true
   full?: true
-- body: |2-
-
+- body: |-
     The countless challenges raced through my mind as Gabe and I chatted—file size, performance, file size, image quality, file size, deadline. I could’ve walked away, but after brainstorming and talking through all the obstacles, I felt invested in the website—I wanted to be the one to make this special.
 
     I accepted the gig.
@@ -58,8 +57,8 @@ blocks:
     After considering all of the potential issues with video, like aspect ratio and browser compatibility, we decided to ditch that approach. This was definitely for the best because if we were to discover a deal-breaker after shooting the video, we would be in a really sticky situation. By using still images, we would at least have some outs if anything went south.
 - figure:
     video: "/uploads/writings/building-the-casper-homepage/gazelle"
-    width: 1280.0
-    height: 720.0
+    width: 1280
+    height: 720
     caption: The Gazelle camera crane photographing the Casper mattress
   wide?: true
   full?: true
@@ -69,8 +68,8 @@ blocks:
     With a tight deadline and no readily available assets, I had to make the most of my time. While JaegerSloan worked on touching up the images, I started coding a prototype using colored blocks as placeholders. This allowed me to focus on the timing, positioning, and feel of the animation before even thinking about actual images.
 - figure:
     video: "/uploads/writings/building-the-casper-homepage/color-blocks"
-    width: 1280.0
-    height: 592.0
+    width: 1280
+    height: 592
     shadow?: true
     caption: A prototype using colored blocks as placeholders
   wide?: true
@@ -91,8 +90,8 @@ blocks:
     The code I used to control the positioning and timing of the animation is step-based, similar to the system I wrote for Dropbox’s [Carousel website](/writings/building-the-carousel-website). Each step has a duration and an array of items to animate. And each item has start/end values for each property (x, y, etc). The current step is detected based on the scroll position. The items then animate based on the scroll position within the current step. Everything is based on relative percentages, so if a specific step needs to be shortened or lengthened, I can increase the duration of that step and the animation will adjust itself.
 - figure:
     video: "/uploads/writings/building-the-casper-homepage/draft"
-    width: 1280.0
-    height: 648.0
+    width: 1280
+    height: 648
     shadow?: true
     caption: A prototype using draft images
   wide?: true
@@ -103,8 +102,8 @@ blocks:
     When we received the final images from JaegerSloan, it felt like Christmas. I had been working with the draft images for so long that I forgot that they were drafts—my brain learned to ignore their rough edges and color. Once I swapped out the drafts for the retouched images, everything instantly felt like a real webpage—no longer a prototype.
 - figure:
     video: "/uploads/writings/building-the-casper-homepage/final-images"
-    width: 1280.0
-    height: 812.0
+    width: 1280
+    height: 812
     shadow?: true
     caption: A prototype using final images
   wide?: true
@@ -128,8 +127,8 @@ blocks:
     I started on the new prototype and was blown away by how much code I was able to remove. I treated each section of the page as a self-contained block with its own scroll percentage. The items would move up the page like normal HTML elements, but the “rotation” would be determined by their independent position on the page. This approach cut the code to roughly 30 lines, down from over 600.
 - figure:
     video: "/uploads/writings/building-the-casper-homepage/final"
-    width: 1280.0
-    height: 720.0
+    width: 1280
+    height: 720
     shadow?: true
     caption: The final iteration
   wide?: true
