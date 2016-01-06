@@ -53,6 +53,7 @@ blocks:
   body: |-
     I write about the process behind my work and other experiences as a freelancer and independent developer.
 
+    - [Building the Casper homepage](/writings/building-the-casper-homepage)
     - [Building the Carousel website with Dropbox](/writings/building-the-carousel-website)
     - [Book Covers, Model Airplanes, and My Dad](/writings/my-dad)
     - [Building the Pencil page with FiftyThree](/writings/building-the-pencil-page)
