@@ -2,6 +2,7 @@
 title: Building the Casper homepage
 date: 2016-01-05 15:02:00 -05:00
 color: 00237e
+draft?: true
 blocks:
 - figure:
     image: "/uploads/writings/building-the-casper-homepage/homepage.jpg"
@@ -31,7 +32,7 @@ blocks:
     I had experience animating with still images from my work on the [FiftyThree Pencil page](/writings/building-the-pencil-page), where a hand holding a Pencil rotates as the user scrolls. That, however, was only a small section of the page using only a dozen images. The Casper website, on the other hand, would potentially be hundreds of hi-res images spanning the entire window.
 - figure:
     video: "/uploads/writings/building-the-casper-homepage/pencil"
-    width: 1280
+    width: 1280.1
     height: 720
     shadow?: true
     caption: "[FiftyThree Pencil website](/writings/building-the-pencil-page)"
