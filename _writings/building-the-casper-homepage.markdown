@@ -5,7 +5,7 @@ color: 00237e
 draft?: true
 blocks:
 - figure:
-    image: /uploads/writings/building-the-casper-homepage/homepage.jpg
+    image: "/uploads/writings/building-the-casper-homepage/homepage.jpg"
     shadow?: true
   wide?: true
 - body: |-
@@ -13,7 +13,7 @@ blocks:
 
     One week later, however, I received an email from Gabe Flateman, CTO and co-founder of [Casper](http://casper.com). If you live in New York, you’re probably well aware of Casper because their subway ads are *everywhere*. In short, Casper is a mattress startup with emphasis on quality, affordability, and customer support.
 - figure:
-    image: /uploads/writings/building-the-casper-homepage/ad.png
+    image: "/uploads/writings/building-the-casper-homepage/ad.png"
     caption: Casper subway ads by [Red Antler](http://redantler.com) & [Tomi Um](http://tomiillustration.com)
 - body: |-
     Typically, I would’ve stuck to the plan of going clientless, but Casper is an enticing client—I simply couldn’t pass up the opportunity to at least chat. If anything, this would allow me to work full-time on Cushion for even longer.
@@ -22,8 +22,8 @@ blocks:
 
     I’ve worked on a few animated websites in the past, and that’s exactly how Gabe found me. These websites are fun because they give me the chance to experiment. I also do my best work under the pressure of their challenges and countless unknowns, like whether the website is even possible.
 - figure:
-    image: /uploads/writings/building-the-casper-homepage/sketch.jpg
-    caption: “Dream Sandwich” sketch from Casper’s CTO
+    image: "/uploads/writings/building-the-casper-homepage/sketch.jpg"
+    caption: "“Dream Sandwich” sketch from Casper’s CTO"
 - body: |-
     Gabe told me about their “Dream Sandwich” concept, designed by the creative studio, [JaegerSloan](http://jaegersloan.com). The bed would separate in mid-air and each product would float up the page as the user scrolls. Then, the products would float back down and land as a complete bed.
 
@@ -35,11 +35,10 @@ blocks:
     width: 1280.0
     height: 720.0
     shadow?: true
-    caption: |-
-      [FiftyThree Pencil website](/writings/building-the-pencil-page)
+    caption: "[FiftyThree Pencil website](/writings/building-the-pencil-page)"
   wide?: true
   full?: true
-- body: |-
+- body: |2-
 
     The countless challenges raced through my mind as Gabe and I chatted—file size, performance, file size, image quality, file size, deadline. I could’ve walked away, but after brainstorming and talking through all the obstacles, I felt invested in the website—I wanted to be the one to make this special.
 
@@ -50,8 +49,7 @@ blocks:
     Gabe sent me a CodePen [prototype](http://codepen.io/ollieRogers/pen/lfeLc/) they made for scrubbing a video with the scrollbar. [CodePen](http://codepen.io) and other web-based IDEs were completely foreign to me, so this was a first. I forked Casper’s prototype and added friction to make the scrubbing smoother. I was blown away by how easy it was to set up and share iterations. So much, in fact, that I decided to use it for the rest of the project.
 - figure:
     image: "/uploads/writings/building-the-casper-homepage/codepen.jpg"
-    caption: |-
-      Iterations in [CodePen](http://codepen.io)
+    caption: Iterations in [CodePen](http://codepen.io)
   wide?: true
   full?: true
 - body: |-
@@ -84,7 +82,7 @@ blocks:
 
     Instead of loading images one-by-one, we needed to use sprite sheets—combining every frame of a product as one image. If we have 5 products on the page, the browser would only need to load 5 images with 100 frames versus 500 single-frame images. The file size would also be much lower because the images within the sprite sheet could share colors.
 - figure:
-    image: /uploads/writings/building-the-casper-homepage/sprite.jpg
+    image: "/uploads/writings/building-the-casper-homepage/sprite.jpg"
     caption: A sprite sheet of Casper sheets
   wide?: true
 - body: |-
@@ -122,7 +120,7 @@ blocks:
 
     The rest of the page, including the animation, was more up-in-the-air at this point. Casper’s Director of Design, Huy Vu, and Senior Designer, Jarrod Barretto, focused on a new design. It would reuse the elements of the animation, but ditch the idea of the step-based animation.
 - figure:
-    image: /uploads/writings/building-the-casper-homepage/new-direction.jpg
+    image: "/uploads/writings/building-the-casper-homepage/new-direction.jpg"
     caption: A sketch of the new direction
 - body: |-
     After the hero, the user would see the separated “Dream Sandwich” with buttons linking to each product. They would then scroll through the individual products before hitting the rest of the page. As the products move up the page, they would “rotate” with the scroll to create the illusion of 3D perspective.
@@ -145,3 +143,4 @@ blocks:
 
     In the end, I’m thrilled with how everything turned out. The homepage fits that perfect balance between subtle and special without going overboard with animations. I had a blast working with the team and witnessing them build the rest of the website around my small contribution. I look forward to watching Casper grow, and I hope to hear from them again when they inevitably launch pajamas.
 ---
+
