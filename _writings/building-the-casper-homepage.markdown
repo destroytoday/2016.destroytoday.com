@@ -141,5 +141,7 @@ blocks:
     In the final hours, Betty Liao, Casper’s Digital Project Manager, tested a gnarly iOS7 bug for me while I attempted to blindly fix it (without the device). A few stressful minutes later, I merged my final pull request and called it a night. Casper launched the next day.
 
     In the end, I’m thrilled with how everything turned out. The homepage fits that perfect balance between subtle and special without going overboard with animations. I had a blast working with the team and witnessing them build the rest of the website around my small contribution. I look forward to watching Casper grow, and I hope to hear from them again when they inevitably launch pajamas.
+
+    You can see the Casper homepage [here](http://casper.com){:target='_blank'}.
 ---
 
