@@ -13,6 +13,7 @@ blocks:
     path: "/uploads/writings/building-the-pencil-page/parts"
     width: 750.0
     height: 578.0
+    autoplay?: true
 - body: The Pencil product page was my first foray into scrolling effects—no pressure.
     I’ve never been a fan of scrolling effects, mainly because most implementations
     hijack the scrollbar. With that in mind, I coded it in a way that would maintain
@@ -24,6 +25,7 @@ blocks:
     path: "/uploads/writings/building-the-pencil-page/form"
     width: 750.0
     height: 578.0
+    autoplay?: true
 - body: The “Inspired Form” section was originally designed to rotate the pencil with
     the horizontal tracking of the cursor, but it felt unnatural. If someone were
     to scroll the entirety of the page, they might miss it, as it required them to

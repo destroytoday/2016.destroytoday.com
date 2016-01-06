@@ -4,6 +4,7 @@ layout: default
 {% assign docs = site[page.archive] | sort:'date' | reverse %}
 
 {% for doc in docs %}
+  {% if doc.draft? %}{% continue %}{% endif %}
   {% assign year = doc.date | date:'%Y' %}
 
   {% if year != pyear %}

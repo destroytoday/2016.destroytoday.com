@@ -15,6 +15,7 @@ blocks:
     path: "/uploads/writings/building-the-carousel-website/mobile"
     width: 384.0
     height: 804.0
+    autoplay?: true
 - body: |-
     While at Dropbox HQ, I worked on the mobile website, which would step the viewer through several views. A stack of photos would fall, arranging each photo on the device, to fill in the app’s content. Several transitions would play out, demonstrating the app’s main draw—sharing photos. The photos would then return to a stack and prompt the viewer to download the app.
 
@@ -27,6 +28,7 @@ blocks:
     path: "/uploads/writings/building-the-carousel-website/intro"
     width: 750.0
     height: 578.0
+    autoplay?: true
 - body: |-
     I wrapped up the mobile website that week, with exception for a few content tweaks throughout the rest of the project. After returning home to Brooklyn, I started on the desktop version. Dropbox wanted a completely different experience from mobile, but they also made it clear they didn’t want a separate “m.carousel.com” subdomain. Considering the mobile version used CSS for all of the transitions, I knew I would need to start from scratch with the desktop’s stylesheet. I ended up using the same HTML as the mobile version, but swapping out the stylesheets based on media queries on the stylesheet tags.
 
@@ -37,6 +39,7 @@ blocks:
     path: "/uploads/writings/building-the-carousel-website/conversation"
     width: 750.0
     height: 578.0
+    autoplay?: true
 - body: |-
     I definitely didn’t want to return to the triggered approach from before, so I improvised. Since I was already using friction for a softer feel, I could simply increase the friction based on the scroll’s proximity to each lockpoint. In the code, I call these “speed bumps” and that’s exactly what they are. And, to make these speed bumps less apparent, I ease the friction based on the actual distance. This was enough to achieve the slick movement of the transitions while snapping each slide into place.
 

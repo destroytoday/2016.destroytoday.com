@@ -13,12 +13,12 @@ $break-tablet: 32rem
 $break-mobile-sides: $narrow-width + $mobile-side * 2
 $break-wide: $wide-width + $mobile-side * 2
 
-$color-blue: #3498DB
+$color-purple: #834A7D
 
 
 body
   font-family: "ff-tisa-web-pro", Georgia, serif
-  background-color: $color-blue
+  background-color: $color-purple
   color: #222
 
   .wf-loading &
@@ -75,7 +75,7 @@ img
   width: 2.5em
   height: 2.5em
 
-  background-color: $color-blue
+  background-color: $color-purple
 
 
 .layout
@@ -112,14 +112,16 @@ img
   .block__header + .block__body
     margin-top: 0.25em
 
-  .block__image + .block__caption
-    margin-top: 0.5em
+  .block__image,
+  .block__video-container
+    + .block__caption
+      margin-top: 0.5em
 
   .block__header + .block__figure
     margin-top: 0.75em
 
   .block__figure--captioned + .block__body
-    margin-top: 0.75em
+    margin-top: 1em
 
   .block__images-container,
   .block__list,
@@ -156,24 +158,24 @@ img
     &:first-child
       margin-top: 0
 
-  ul
+  ul, ol
     margin-top: 1em
 
     &:first-child
       margin-top: 0
 
   li
+    position: relative
+    margin-left: 0.75em
     line-height: 1.5em
 
-    white-space: nowrap
-    text-overflow: ellipsis
-    overflow: hidden
-
     &:before
-      content: '- '
+      position: absolute
+      left: -0.75em
+      content: '-'
 
     @media (min-width: $break-tablet)
-      padding-left: 1em
+      margin-left: 1.5em
 
 
 .block__image
@@ -182,13 +184,24 @@ img
   img
     width: 100%
 
-  &--shadow img
-    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15)
-
   &--half
     @media (min-width: $break-phone)
       display: inline-block
       width: 48.5%
+
+  &--border
+    border: solid 1px lightgray
+
+
+.block__image--shadow
+  img
+    box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.15)
+
+  &.block__image--half img
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15)
+
+  .block--wide &:not(.block__image--half) img
+    box-shadow: 0px 3px 12px 3px rgba(0, 0, 0, 0.15)
 
 
 .block__images-container
@@ -230,12 +243,25 @@ img
     width: 100%
     height: 100%
 
+  &--border
+    video,
+    iframe
+      border: solid 1px lightgray
+
+
+.block__video--shadow
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.15)
+
+  .block--wide &
+    box-shadow: 0px 3px 12px 3px rgba(0, 0, 0, 0.15)
+
 
 .block__caption
   p
     font-size: 0.75rem
     font-style: italic
     line-height: 1.5em
+    text-align: center
 
   @media (max-width: $break-mobile-sides)
     .block--full &

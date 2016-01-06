@@ -1,14 +1,19 @@
 <div class='block__video-container' style='max-width: {{ include.video.width }}px; max-height: {{ include.video.height }}px;'>
-  <div class='block__video' style='padding-bottom: {{ include.video.height | divided_by: include.video.width | times:100 }}%'>
+  <div class='
+  {% if include.video.shadow? %}block__video--shadow {% endif %}
+  {% if include.video.border? %}block__video--border {% endif %}
+  block__video' style='padding-bottom: {{ include.video.height | divided_by: include.video.width | times:100 }}%'>
     {% if include.video.iframe %}
       {% include iframe.html src=include.video.iframe %}
     {% elsif include.video.youtube %}
       {% include iframe.html src='https://www.youtube.com/embed/{{ include.video.youtube }}' %}
     {% else %}
-      <video poster='{{ include.video.path }}.jpg' autoplay='autoplay' loop='loop' controls='controls' tabindex='0'>
-        <source src='{{ include.video.path }}.mp4' type='video/mp4' />
-        <source src='{{ include.video.path }}.ogv' type='video/ogg' />
-        Video tag not supported. Download the video <a href='{{ include.video.path }}.mp4'>here</a>.
+      {% assign path = include.video.path | default: include.video.video %}
+
+      <video poster='{{ path }}.jpg' controls='controls' tabindex='0'{% if include.video.autoplay? %} autoplay='autoplay' loop='loop'{% endif %}>
+        <source src='{{ path }}.mp4' type='video/mp4' />
+        <source src='{{ path }}.ogv' type='video/ogg' />
+        Video tag not supported. Download the video <a href='{{ path }}.mp4'>here</a>.
       </video>
     {% endif %}
   </div>

@@ -61,7 +61,7 @@ blocks:
   body: |-
     I occasionally speak at conferences and teach design workshops.
 
-    - [Create Upstate](http://createupstate.com){:target='_blank'} *(upcoming)*
+    - [Create Upstate](http://createupstate.com) *(upcoming)*
     - [Creative Mornings](/talks/creative-mornings)
     - Flash and the City *(not recorded)*
 

@@ -1,5 +1,9 @@
 <figure class='{% if include.figure.caption %}block__figure--captioned {% endif %}block__figure'>
-  {% include image.html image=include.figure %}
+  {% if include.figure.image %}
+    {% include image.html image=include.figure %}
+  {% elsif include.figure.video %}
+    {% include video.html video=include.figure %}
+  {% endif %}
 
   {% if include.figure.caption %}
   <figcaption class='block__caption'>

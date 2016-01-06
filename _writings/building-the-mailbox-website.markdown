@@ -16,6 +16,7 @@ blocks:
     path: "/uploads/writings/building-the-mailbox-website/mailbox"
     width: 750.0
     height: 578.0
+    autoplay?: true
 - body: |-
     The design of the website took a number of turns before I was given the green light. [Morgan Knutson](http://twitter.com/morganknutson) led the final version, landing on using videos to demo the many gestures within the app. Upon scrolling the website, the videos will autoplay once they come into view. When a video falls out of view, it pauses. It’s a straight-forward approach, but very effective, showcasing exactly how the app works without hitting you over the head with effects.
 
