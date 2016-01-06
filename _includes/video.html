@@ -2,7 +2,7 @@
   <div class='
   {% if include.video.shadow? %}block__video--shadow {% endif %}
   {% if include.video.border? %}block__video--border {% endif %}
-  block__video' style='padding-bottom: {{ include.video.height | divided_by: include.video.width | times:100 }}%'>
+  block__video' style='padding-bottom: {{ include.video.height | times:1.0 | divided_by: include.video.width | times:100 }}%'>
     {% if include.video.iframe %}
       {% include iframe.html src=include.video.iframe %}
     {% elsif include.video.youtube %}
