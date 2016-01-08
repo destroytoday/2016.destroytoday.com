@@ -2,7 +2,6 @@
 title: Building the Casper homepage
 date: 2016-01-05 15:02:00 -05:00
 color: 00237e
-draft?: true
 blocks:
 - figure:
     image: "/uploads/writings/building-the-casper-homepage/homepage.jpg"
