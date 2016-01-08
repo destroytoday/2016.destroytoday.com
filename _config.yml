@@ -10,6 +10,9 @@ collections:
     title: Interviews
     output: true
     archive?: true
+  posts:
+    title: Posts
+    output: true
   talks:
     title: Talks
     output: true
