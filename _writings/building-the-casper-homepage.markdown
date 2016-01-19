@@ -22,7 +22,8 @@ blocks:
     I’ve worked on a few animated websites in the past, and that’s exactly how Gabe found me. These websites are fun because they give me the chance to experiment. I also do my best work under the pressure of their challenges and countless unknowns, like whether the website is even possible.
 - figure:
     image: "/uploads/writings/building-the-casper-homepage/sketch.jpg"
-    caption: "“Dream Sandwich” sketch from Casper’s CTO"
+    caption: "“Dream Sandwich” sketch from Alex Malkin, Digital Experience Director
+      at Red Antler"
 - body: |-
     Gabe told me about their “Dream Sandwich” concept, designed by the creative studio, [JaegerSloan](http://jaegersloan.com). The bed would separate in mid-air and each product would float up the page as the user scrolls. Then, the products would float back down and land as a complete bed.
 
