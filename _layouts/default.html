@@ -24,6 +24,11 @@
         h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
       })(document);
     </script>
+
+    {% if page.url == '/' %}
+    <link href='//static.cushionapp.com/availability.css' rel='stylesheet'>
+    <script src='//static.cushionapp.com/availability.js'></script>
+    {% endif %}
   </head>
 
   <body{% if page.color %} style='background-color: #{{ page.color }}'{% endif %}>
@@ -70,5 +75,9 @@
         <p>&copy; {{ site.time | date: '%Y' }} Destroy Today, LLC. All Rights Reserved</p>
       </footer>
     </div>
+
+    <script>
+      Availability.ribbon({ user: '6a897f9e-fed2-4a4d-b77b-db2d3ed4f6f8', href: 'http://cushionapp.com' })
+    </script>
   </body>
 </html>
