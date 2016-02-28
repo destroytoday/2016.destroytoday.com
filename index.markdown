@@ -63,7 +63,9 @@ blocks:
     - [Building the Pencil page with FiftyThree](/writings/building-the-pencil-page)
     - [more...](/writings)
 - header: Speaking
-  body: I occasionally speak at web conferences and teach design workshops. In May, I’ll be at [Create Upstate](http://createupstate.com/speakers/jonnie-hallman/) to talk about bootstrapping apps.
+  body: I occasionally speak at web conferences and teach design workshops. In May,
+    I’ll be at [Create Upstate](http://createupstate.com/speakers/jonnie-hallman/)
+    to talk about bootstrapping apps.
 - figure:
     video: true
     iframe: https://creativemornings.com/videos/embed/2061
