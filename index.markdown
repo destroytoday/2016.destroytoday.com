@@ -69,8 +69,7 @@ blocks:
     iframe: https://creativemornings.com/videos/embed/2061
     width: 1280.0
     height: 720.0
-    caption: |-
-      [Creative Mornings](/talks/creative-mornings), New York
+    caption: "[Creative Mornings](/talks/creative-mornings), New York"
 - body: |-
     And, I’ve been fortunate enough to appear on several podcasts.
 
