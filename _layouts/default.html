@@ -76,8 +76,18 @@
       </footer>
     </div>
 
+    {% if page.url == '/' %}
     <script>
-      Availability.ribbon({ user: '6a897f9e-fed2-4a4d-b77b-db2d3ed4f6f8', href: 'http://cushionapp.com' })
+      var user = '6a897f9e-fed2-4a4d-b77b-db2d3ed4f6f8'
+
+      Availability.ribbon({ user: user, href: 'http://cushionapp.com' })
+      Availability.custom({ user: user, render: function () {
+        var el = document.querySelector('[data-availability]')
+
+        if (this.isAvailable())   el.innerHTML = 'I’m currently <strong>available</strong>.'
+        if (this.isSoon())        el.innerHTML = 'My next opening is in <strong>' + this.month() + '</strong>.'
+      }})
     </script>
+    {% endif %}
   </body>
 </html>

@@ -12,29 +12,20 @@ blocks:
   wide?: true
   full?: true
 - header: About
-  body: Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with an equal
+  body: |-
+    Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with a healthy
     balance of design and code. I enjoy working with positive people who share the
     same passion for simple and thoughtful design.
+
+    <span data-availability></span>
 - header: Work
-  body: I’m currently building my own app, [Cushion](http://cushionapp.com){:target='_blank'},
-    to help freelancers manage their unpredictable schedule and income.
-- images:
-  - image: "/uploads/work/cushion/cushion-homepage.png"
-    url: http://cushionapp.com
-    size: half
-    shadow?: true
-  - image: "/uploads/work/cushion/cushion-budget.png"
-    url: http://cushionapp.com
-    size: half
-    shadow?: true
-  wide?: true
-- body: I’ve had the pleasure of working with many great collaborators, like [Casper](http://casper.com){:target='_blank'},
+  body: I’ve had the pleasure of working with many great collaborators, like [Casper](http://casper.com){:target='_blank'},
     [Dropbox](/writings/building-the-carousel-website), [Etsy](http://etsy.com){:target='_blank'},
     [FiftyThree](/writings/building-the-pencil-page), [Adobe](http://adobe.com){:target='_blank'},
     and [Artsy](http://artsy.net){:target='_blank'}.
-  images:
+- images:
   - image: "/uploads/work/casper/casper.png"
-    url: http://casper.com
+    url: "/writings/building-the-casper-homepage"
     size: half
     shadow?: true
   - image: "/uploads/work/dropbox/carousel.png"
@@ -49,6 +40,19 @@ blocks:
     url: "/writings/building-the-pencil-page"
     size: half
     shadow?: true
+  wide?: true
+- body: I’m also building my own app, [Cushion](http://cushionapp.com){:target='_blank'},
+    to help freelancers manage their unpredictable schedule and income.
+- images:
+  - image: "/uploads/work/cushion/cushion-homepage.png"
+    url: http://cushionapp.com
+    size: half
+    shadow?: true
+  - image: "/uploads/work/cushion/cushion-budget.png"
+    url: http://cushionapp.com
+    size: half
+    shadow?: true
+  wide?: true
 - header: Writing
   body: |-
     I write about the process behind my work and other experiences as a freelancer and independent developer.
@@ -59,13 +63,15 @@ blocks:
     - [Building the Pencil page with FiftyThree](/writings/building-the-pencil-page)
     - [more...](/writings)
 - header: Speaking
-  body: |-
-    I occasionally speak at conferences and teach design workshops.
-
-    - [Create Upstate](http://createupstate.com) *(upcoming)*
-    - [Creative Mornings](/talks/creative-mornings)
-    - Flash and the City *(not recorded)*
-
+  body: I occasionally speak at web conferences and teach design workshops.
+- figure:
+    video: true
+    iframe: https://creativemornings.com/videos/embed/2061
+    width: 1280.0
+    height: 720.0
+    caption: |-
+      [Creative Mornings](/talks/creative-mornings), New York
+- body: |-
     And, I’ve been fortunate enough to appear on several podcasts.
 
     - [Pencil vs Pixel](/interviews/pencil-vs-pixel)

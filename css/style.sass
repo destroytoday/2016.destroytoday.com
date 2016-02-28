@@ -5,13 +5,14 @@
 
 $font-family: "ff-tisa-web-pro", Georgia, serif
 
-$mobile-side: 0.75rem
-$narrow-width: 32rem
-$wide-width: 40rem
-$logo-size: 2.5rem
+$mobile-side: 0.75em
+$narrow-width: 32em
+$wide-width: 40em
+$logo-size: 2.5em
 
 $break-phone: 25rem
 $break-tablet: 32rem
+$break-desktop: 48rem
 $break-mobile-sides: $narrow-width + $mobile-side * 2
 $break-wide: $wide-width + $mobile-side * 2
 
@@ -29,12 +30,18 @@ body
   @media (max-width: $break-phone)
     font-size: 0.875em
 
+  @media (min-width: $break-desktop)
+    font-size: 1.125em
+
 
 a
   color: inherit
 
 em
   font-style: italic
+
+strong
+  font-weight: bold
 
 img
   max-width: 100%
@@ -74,10 +81,14 @@ img
 
 .logo
   display: block
-  width: 2.5em
-  height: 2.5em
+  width: 2.5rem
+  height: 2.5rem
 
   background-color: $color-purple
+
+  @media (max-width: $break-phone)
+    width: 2rem
+    height: 2rem
 
 
 .layout
@@ -113,6 +124,9 @@ img
 
   .block__header + .block__body
     margin-top: 0.25em
+
+  .block__header + .block__video-container
+    margin-top: 0.75em
 
   .block__image,
   .block__video-container
@@ -198,9 +212,6 @@ img
 .block__image--shadow
   img
     box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.15)
-
-  &.block__image--half img
-    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15)
 
   .block--wide &:not(.block__image--half) img
     box-shadow: 0px 3px 12px 3px rgba(0, 0, 0, 0.15)
