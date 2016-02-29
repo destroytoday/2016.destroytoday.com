@@ -85,7 +85,7 @@
         var el = document.querySelector('[data-availability]')
 
         if (this.isAvailable())   el.innerHTML = 'I’m currently <strong>available</strong>.'
-        if (this.isSoon())        el.innerHTML = 'My next opening is in <strong>' + this.month() + '</strong>.'
+        if (this.isSoon())        el.innerHTML = 'My next available opening is in <strong>' + this.month() + '</strong>.'
       }})
     </script>
     {% endif %}
