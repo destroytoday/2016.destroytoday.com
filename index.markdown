@@ -2,7 +2,6 @@
 title: Index
 date: 2015-11-17 18:56:00 -05:00
 title?: false
-timestamp?: false
 blocks:
 - figure:
     image: "/uploads/me-creative-mornings.jpg"
@@ -13,7 +12,7 @@ blocks:
   full?: true
 - header: About
   body: |-
-    Hi. My name is Jonnie Hallman. I’m a freelance designer/dev with a healthy
+    Hi. My name is Jonnie Hallman. I’m a Brooklyn-based freelance designer/dev with a healthy
     balance of design and code. I enjoy working with positive people who share the
     same passion for simple and thoughtful design.
 
@@ -69,8 +68,8 @@ blocks:
 - figure:
     video: true
     iframe: https://creativemornings.com/videos/embed/2061
-    width: 1280.0
-    height: 720.0
+    width: 1280
+    height: 720
     caption: "[Creative Mornings](/talks/creative-mornings), New York"
 - body: |-
     And, I’ve been fortunate enough to appear on several podcasts.
