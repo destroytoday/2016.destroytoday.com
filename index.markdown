@@ -65,6 +65,12 @@ blocks:
   body: I occasionally speak at web conferences and teach design workshops. In May,
     I’ll be at [Create Upstate](http://createupstate.com/speakers/jonnie-hallman/)
     to talk about bootstrapping apps.
+  figure:
+    video: true
+    iframe: https://player.vimeo.com/video/179264246
+    width: 1280
+    height: 720
+    caption: "[Create Upstate](/talks/create-upstate)"
 - figure:
     video: true
     iframe: https://creativemornings.com/videos/embed/2061
