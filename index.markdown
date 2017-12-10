@@ -15,8 +15,6 @@ blocks:
     Hi. My name is Jonnie Hallman. I’m a Brooklyn-based freelance designer/dev with a healthy
     balance of design and code. I enjoy working with positive people who share the
     same passion for simple and thoughtful design.
-
-    <span data-availability></span>
 - header: Work
   body: I’ve had the pleasure of working with many great collaborators, like [Casper](http://casper.com){:target='_blank'},
     [Dropbox](/writings/building-the-carousel-website), [Etsy](http://etsy.com){:target='_blank'},
@@ -88,4 +86,3 @@ blocks:
   body: You can reach me on Twitter at [@destroytoday](https://twitter.com/destroytoday)
     or by emailing me at [jonnie@destroytoday.com](mailto:jonnie@destroytoday.com).
 ---
-
