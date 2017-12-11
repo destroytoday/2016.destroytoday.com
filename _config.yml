@@ -1,6 +1,5 @@
 ---
 title: Destroy Today
-description: The personal website of designer/dev, Jonnie Hallman.
 timezone: America/New_York
 collections:
   blog:
@@ -29,6 +28,7 @@ defaults:
   values:
     layout: default
     timestamp?: true
+description: The personal website of designer/dev, Jonnie Hallman.
 author: Jonnie Hallman
 permalink: pretty
 sass:
