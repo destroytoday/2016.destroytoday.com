@@ -1,6 +1,6 @@
 ---
 title: Burning Out and Finding Stability
-date: 2019-06-04 08:56:00 -04:00
+date: 2019-06-04 08:57:00 -04:00
 color: 6772e5
 ---
 Earlier this year, I experienced my first panic attack. It was easily the worst experience of my life. I’d like to think that I’m a mentally strong person, especially after being independent for so long, but this broke me. The perfect storm of uncertainty, pressure, and overwhelming responsibility led me to completely spiral out of control and transformed me into a fragile, easily-triggered version of myself. I found a way through it, but even months later, I’m still recovering.
