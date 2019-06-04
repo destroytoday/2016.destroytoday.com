@@ -3,6 +3,7 @@ title: Burning Out and Finding Stability
 date: 2019-06-04 08:57:00 -04:00
 color: 6772e5
 ---
+
 Earlier this year, I experienced my first panic attack. It was easily the worst experience of my life. I’d like to think that I’m a mentally strong person, especially after being independent for so long, but this broke me. The perfect storm of uncertainty, pressure, and overwhelming responsibility led me to completely spiral out of control and transformed me into a fragile, easily-triggered version of myself. I found a way through it, but even months later, I’m still recovering.
 
 My first burnout happened in 2014. I was a full-time freelancer and naively said yes to every job that came my way. Back then, I viewed tight deadlines as a challenge—a great story on top of a great portfolio piece. This time, however, I took on too much work. For two months straight, I worked all day, all night, and every weekend. I crashed each night, then woke up and did it again. After crawling across the finish line, I felt mentally and physically defeated. I needed a break, but I also needed to recognize that I actually have limits.
